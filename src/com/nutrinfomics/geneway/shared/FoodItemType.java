@@ -9,7 +9,7 @@ public enum FoodItemType {
 	//summer fruits:
 	FIG(FoodCategory.FRUIT), PLUM(FoodCategory.FRUIT), GRAPE(FoodCategory.FRUIT), WATERMELON(FoodCategory.FRUIT), 
 	MANGO(FoodCategory.FRUIT), PRICKLY_PEAR(FoodCategory.FRUIT), CANTALOUPE(FoodCategory.FRUIT), BANANA(FoodCategory.FRUIT), 
-	PEACH(FoodCategory.FRUIT), PINEAPPLE(FoodCategory.FRUIT),
+	PEACH(FoodCategory.FRUIT), PINEAPPLE(FoodCategory.FRUIT),MULBERRIES(FoodCategory.FRUIT),
 	//Autumn fruits:
 	GRAPEFRUIT(FoodCategory.FRUIT), KIWI(FoodCategory.FRUIT), PASSIONFRUIT(FoodCategory.FRUIT), APPLE(FoodCategory.FRUIT), APPLE_PEELED(FoodCategory.FRUIT),
 	POMEGRANATE(FoodCategory.FRUIT), POMEGRANATE_JUICE(FoodCategory.FRUIT), PEAR(FoodCategory.FRUIT),
@@ -18,12 +18,14 @@ public enum FoodItemType {
 	TANGERINES(FoodCategory.FRUIT), ORANGE(FoodCategory.FRUIT), ORANGE_JUICE(FoodCategory.FRUIT),
 	PUMMELO(FoodCategory.FRUIT), PERSIMMON_JAPANESE(FoodCategory.FRUIT),
 	CRANBERRIES(FoodCategory.FRUIT), BLUEBERRIES(FoodCategory.FRUIT), BLACKBERRIES(FoodCategory.FRUIT),
+	//winter fruits
+	STRAWBERRIES(FoodCategory.FRUIT),
 	//year round
 	TOMATO(FoodCategory.VEGETABLE_FRUIT), CUCUMBER_PEELED(FoodCategory.VEGETABLE_FRUIT), ZUCCHINI(FoodCategory.VEGETABLE_FRUIT), PEPPERS_RED(FoodCategory.VEGETABLE_FRUIT),
 	PEPPERS_YELLOW(FoodCategory.VEGETABLE_FRUIT),
 	PUMPKIN(FoodCategory.VEGETABLE_FRUIT), SQUASH_SUMMER(FoodCategory.VEGETABLE_FRUIT), EGGPLANT(FoodCategory.VEGETABLE_FRUIT),
 	//dried fruits
-	FIG_DRIED(FoodCategory.FRUIT), APRICOT_DRIED(FoodCategory.FRUIT), PLUM_DRIED(FoodCategory.FRUIT),
+	FIG_DRIED(FoodCategory.FRUIT), APRICOT_DRIED(FoodCategory.FRUIT), PLUM_DRIED(FoodCategory.FRUIT),RAISIN(FoodCategory.FRUIT),
 	//foods from animal source
 	//land animals
 	LAMB(FoodCategory.MEAT), LAMB_LIVER(FoodCategory.MEAT), LAMB_BRAIN(FoodCategory.MEAT), LAMB_TONGUE(FoodCategory.MEAT), LAMB_SPLEEN(FoodCategory.MEAT),
@@ -34,7 +36,7 @@ public enum FoodItemType {
 	TURKEY(FoodCategory.MEAT),
 	//diary
 	CHEESE_FETA(FoodCategory.DAIRY), MILK1P(FoodCategory.DAIRY), YOGURT_GREEK(FoodCategory.DAIRY),
-	CHEESE_COTTAGE(FoodCategory.DAIRY),
+	CHEESE_COTTAGE(FoodCategory.DAIRY),BUTTER(FoodCategory.DAIRY),
 	//water animals
 	SALMON(FoodCategory.FISH), OYSTER(FoodCategory.SEAFOOD), CRAB(FoodCategory.SEAFOOD), OCTOPUS(FoodCategory.SEAFOOD),
 	SQUID(FoodCategory.SEAFOOD), SHRIMP(FoodCategory.SEAFOOD), GROUPER(FoodCategory.FISH), GILT_HEAD_BREAM(FoodCategory.FISH),
@@ -46,7 +48,7 @@ public enum FoodItemType {
 	TURNIP(FoodCategory.ROOT), RADISH(FoodCategory.ROOT),
 	//nuts
 	WALNUT(FoodCategory.NUT), ALMOND(FoodCategory.NUT), HAZELNUT(FoodCategory.NUT), BRAZILNUT(FoodCategory.NUT), COCONUT(FoodCategory.NUT),
-	COCONUT_DESICCATED(FoodCategory.NUT),
+	COCONUT_DESICCATED(FoodCategory.NUT),CHOCOLATE(FoodCategory.NUT), CHOCOLATE_DARK_70_85(FoodCategory.NUT),
 	//oils
 	OLIVE_OIL(FoodCategory.OIL), COCONUT_OIL(FoodCategory.OIL),
 	HONEY(FoodCategory.OTHER),
@@ -63,7 +65,8 @@ public enum FoodItemType {
 	//spices
 	COFFEE_INSTANT(FoodCategory.SPICE), TURMERIC(FoodCategory.SPICE), THYME(FoodCategory.SPICE),
 	//baked
-	PITA_WHITE(FoodCategory.BAKED);
+	PITA_WHITE(FoodCategory.BAKED),
+	CHOCOLATE_CAKE(FoodCategory.COMPOSITE), ROCK_CAKE(FoodCategory.COMPOSITE);
 	private FoodCategory foodCategory;
 	
 	FoodItemType(FoodCategory foodCategory){
