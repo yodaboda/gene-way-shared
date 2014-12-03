@@ -10,6 +10,10 @@ sourceSets {
 
 
 jar {
+	from sourceSets.main.allJava
+	from (projectDir.toString() + '/src'){
+		include "com/nutrinfomics/geneway/Shared.gwt.xml"
+	}
     manifest {
         attributes 'Implementation-Title': 'Gene-Way shared',
                    'Implementation-Version': version
