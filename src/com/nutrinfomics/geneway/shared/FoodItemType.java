@@ -47,8 +47,9 @@ public enum FoodItemType {
 	CARROT(FoodCategory.ROOT), CARROT_JUICE(FoodCategory.ROOT), POTATO(FoodCategory.ROOT), SWEET_POTATO(FoodCategory.ROOT), GARLIC(FoodCategory.ROOT),
 	TURNIP(FoodCategory.ROOT), RADISH(FoodCategory.ROOT),
 	//nuts
-	WALNUT(FoodCategory.NUT), ALMOND(FoodCategory.NUT), HAZELNUT(FoodCategory.NUT), BRAZILNUT(FoodCategory.NUT), COCONUT(FoodCategory.NUT),
-	COCONUT_DESICCATED(FoodCategory.NUT), COCONUT_FLOUR(FoodCategory.NUT), CHOCOLATE(FoodCategory.NUT), CHOCOLATE_DARK_70_85(FoodCategory.NUT),
+	WALNUT(FoodCategory.NUT), ALMOND(FoodCategory.NUT), HAZELNUT(FoodCategory.NUT), BRAZILNUT(FoodCategory.NUT), CHESTNUT(FoodCategory.NUT), 
+	COCONUT(FoodCategory.NUT), COCONUT_DESICCATED(FoodCategory.NUT), COCONUT_FLOUR(FoodCategory.NUT), 
+	CHOCOLATE(FoodCategory.NUT), CHOCOLATE_DARK_70_85(FoodCategory.NUT),
 	//oils
 	OLIVE_OIL(FoodCategory.OIL), COCONUT_OIL(FoodCategory.OIL),
 	HONEY(FoodCategory.OTHER),
