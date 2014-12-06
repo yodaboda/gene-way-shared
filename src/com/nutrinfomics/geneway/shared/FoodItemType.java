@@ -63,6 +63,8 @@ public enum FoodItemType {
 	BULGUR(FoodCategory.CEREAL), RICE(FoodCategory.CEREAL),
 	//legume
 	CHICKPEA(FoodCategory.LEGUME), BROADBEAN(FoodCategory.LEGUME), LENTIL(FoodCategory.LEGUME), BEAN_SNAP_YELLOW(FoodCategory.LEGUME),
+	//sprouts
+	SPROUT_MUNG_BEAN(FoodCategory.SPROUT),
 	//spices
 	COFFEE_INSTANT(FoodCategory.SPICE), TURMERIC(FoodCategory.SPICE), THYME(FoodCategory.SPICE),
 	//baked
