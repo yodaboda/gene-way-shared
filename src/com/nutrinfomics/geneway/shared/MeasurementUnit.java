@@ -1,7 +1,7 @@
 package com.nutrinfomics.geneway.shared;
 
 public enum MeasurementUnit{
-	GRAM, MILLIGRAM, MICROGRAM, CUP, TEA_SPOON, TABLE_SPOON, UNITS, KCAL, SHEET, LEAF;
+	KILOGRAM, CM, CENTIMETRE, GRAM, MILLIGRAM, MICROGRAM, CUP, TEA_SPOON, TABLE_SPOON, UNITS, KCAL, SHEET, LEAF;
 	
 	public static MeasurementUnit parse(String measurementUnit) {
 		measurementUnit = measurementUnit.trim();
