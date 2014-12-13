@@ -45,7 +45,7 @@ public enum FoodItemType {
 	EGG_YOLK(FoodCategory.EGG), EGG(FoodCategory.EGG), EGG_WHITE(FoodCategory.EGG),
 	//roots
 	CARROT(FoodCategory.ROOT), CARROT_JUICE(FoodCategory.ROOT), POTATO(FoodCategory.ROOT), SWEET_POTATO(FoodCategory.ROOT), GARLIC(FoodCategory.ROOT),
-	TURNIP(FoodCategory.ROOT), RADISH(FoodCategory.ROOT),
+	TURNIP(FoodCategory.ROOT), RADISH(FoodCategory.ROOT), ONION(FoodCategory.ROOT),
 	//nuts
 	WALNUT(FoodCategory.NUT), ALMOND(FoodCategory.NUT), HAZELNUT(FoodCategory.NUT), BRAZILNUT(FoodCategory.NUT), CHESTNUT(FoodCategory.NUT), 
 	COCONUT(FoodCategory.NUT), COCONUT_DESICCATED(FoodCategory.NUT), COCONUT_FLOUR(FoodCategory.NUT), 
