@@ -9,7 +9,7 @@ public enum FoodItemType {
 	//summer fruits:
 	FIG(FoodCategory.FRUIT), PLUM(FoodCategory.FRUIT), GRAPE(FoodCategory.FRUIT), WATERMELON(FoodCategory.FRUIT), 
 	MANGO(FoodCategory.FRUIT), PRICKLY_PEAR(FoodCategory.FRUIT), CANTALOUPE(FoodCategory.FRUIT), BANANA(FoodCategory.FRUIT), 
-	PEACH(FoodCategory.FRUIT), PINEAPPLE(FoodCategory.FRUIT),MULBERRIES(FoodCategory.FRUIT),
+	PEACH(FoodCategory.FRUIT), PINEAPPLE(FoodCategory.FRUIT), PAPAYA(FoodCategory.FRUIT), MULBERRIES(FoodCategory.FRUIT),
 	//Autumn fruits:
 	GRAPEFRUIT(FoodCategory.FRUIT), KIWI(FoodCategory.FRUIT), PASSIONFRUIT(FoodCategory.FRUIT), APPLE(FoodCategory.FRUIT), APPLE_PEELED(FoodCategory.FRUIT),
 	POMEGRANATE(FoodCategory.FRUIT), POMEGRANATE_JUICE(FoodCategory.FRUIT), PEAR(FoodCategory.FRUIT),
