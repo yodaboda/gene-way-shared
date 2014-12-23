@@ -59,6 +59,8 @@ public enum FoodItemType {
 	LETTUCE(FoodCategory.VEGETABLE), ARUGULA(FoodCategory.VEGETABLE), BROCCOLI(FoodCategory.VEGETABLE),
 	SPEARMINT(FoodCategory.VEGETABLE), ONION_YOUNG_GREEN(FoodCategory.VEGETABLE), CABBAGE(FoodCategory.VEGETABLE),
 	ARTICHOKE(FoodCategory.VEGETABLE), CAULIFLOWER(FoodCategory.VEGETABLE), 
+	//fungus
+	MUSHROOM(FoodCategory.FUNGUS),
 	//cereals
 	BULGUR(FoodCategory.CEREAL), RICE(FoodCategory.CEREAL),
 	//legume
