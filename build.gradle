@@ -20,3 +20,7 @@ jar {
     }
 }
 
+dependencies {
+	compile 'com.google.gwt:gwt-servlet:2.7.0'
+}
+
