@@ -30,6 +30,14 @@ public class ResourceBundles {
 		return ResourceBundle.getBundle(getResourcePath("MiscConstants"), locale).getString(string);
 	}
 
+	public static String getMiscBundleResource(String string, Locale locale) {
+		return ResourceBundle.getBundle(getResourcePath("MiscBundle"), locale).getString(string);
+	}
+
+	public static String getActivitiesResource(String string, Locale locale) {
+		return ResourceBundle.getBundle(getResourcePath("Activities"), locale).getString(string);
+	}	
+	
 	public static String getGeneWayResource(String string, Locale locale) {
 		return ResourceBundle.getBundle(getResourcePath("GeneWayConstants"), locale).getString(string);
 	}
