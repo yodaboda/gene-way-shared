@@ -5,7 +5,10 @@ package com.nutrinfomics.geneway.shared.constants;
  * 	'/home/firas/Documents/gene-way-workspace/gene-way-app/app/src/com/nutrinfomics/geneway/client/constants/FoodItemTypeConstants.properties'.
  */
 public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.ConstantsWithLookup {
-  
+
+	  @DefaultStringValue("sardine")
+	String SARDINE();
+	
   /**
    * Translated "almond".
    * 

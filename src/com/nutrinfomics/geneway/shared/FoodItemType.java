@@ -40,7 +40,7 @@ public enum FoodItemType {
 	//water animals
 	SALMON(FoodCategory.FISH), OYSTER(FoodCategory.SEAFOOD), CRAB(FoodCategory.SEAFOOD), OCTOPUS(FoodCategory.SEAFOOD),
 	SQUID(FoodCategory.SEAFOOD), SHRIMP(FoodCategory.SEAFOOD), GROUPER(FoodCategory.FISH), GILT_HEAD_BREAM(FoodCategory.FISH),
-	TUNA_CANNED(FoodCategory.FISH),
+	TUNA_CANNED(FoodCategory.FISH), SARDINE(FoodCategory.FISH),
 	
 	EGG_YOLK(FoodCategory.EGG), EGG(FoodCategory.EGG), EGG_WHITE(FoodCategory.EGG),
 	//roots
