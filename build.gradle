@@ -13,6 +13,7 @@ jar {
 	from sourceSets.main.allJava
 	from (projectDir.toString() + '/src'){
 		include "com/nutrinfomics/geneway/Shared.gwt.xml"
+		include "com/nutrinfomics/geneway/shared/constants/*.properties"
 	}
     manifest {
         attributes 'Implementation-Title': 'Gene-Way shared',

@@ -22,7 +22,7 @@ public enum FoodItemType {
 	STRAWBERRIES(FoodCategory.FRUIT),
 	//year round
 	TOMATO(FoodCategory.VEGETABLE_FRUIT), CUCUMBER_PEELED(FoodCategory.VEGETABLE_FRUIT), ZUCCHINI(FoodCategory.VEGETABLE_FRUIT), PEPPERS_RED(FoodCategory.VEGETABLE_FRUIT),
-	PEPPERS_YELLOW(FoodCategory.VEGETABLE_FRUIT),
+	PEPPERS_YELLOW(FoodCategory.VEGETABLE_FRUIT), PEPPERS_GREEN(FoodCategory.VEGETABLE_FRUIT),
 	PUMPKIN(FoodCategory.VEGETABLE_FRUIT), SQUASH_SUMMER(FoodCategory.VEGETABLE_FRUIT), EGGPLANT(FoodCategory.VEGETABLE_FRUIT),
 	//dried fruits
 	FIG_DRIED(FoodCategory.FRUIT), APRICOT_DRIED(FoodCategory.FRUIT), PLUM_DRIED(FoodCategory.FRUIT),RAISIN(FoodCategory.FRUIT),
@@ -35,7 +35,7 @@ public enum FoodItemType {
 	GOAT(FoodCategory.MEAT), 
 	TURKEY(FoodCategory.MEAT),
 	//diary
-	CHEESE_FETA(FoodCategory.DAIRY), MILK1P(FoodCategory.DAIRY), YOGURT_GREEK(FoodCategory.DAIRY),
+	CHEESE_FETA(FoodCategory.DAIRY), GOUDA_CHEESE(FoodCategory.DAIRY), MILK1P(FoodCategory.DAIRY), YOGURT_GREEK(FoodCategory.DAIRY),
 	CHEESE_COTTAGE(FoodCategory.DAIRY),BUTTER(FoodCategory.DAIRY),
 	//water animals
 	SALMON(FoodCategory.FISH), OYSTER(FoodCategory.SEAFOOD), CRAB(FoodCategory.SEAFOOD), OCTOPUS(FoodCategory.SEAFOOD),
