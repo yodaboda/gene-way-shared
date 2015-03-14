@@ -9,11 +9,15 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 	  @DefaultStringValue("sardine")
 	String SARDINE();
 
-	  @DefaultStringValue("Gouda cheese")
+	  @DefaultStringValue("gouda cheese")
 	  String GOUDA_CHEESE();
 	  
-	  @DefaultStringValue("Peppers green")	  
+	  @DefaultStringValue("peppers green")	  
 	  String PEPPERS_GREEN();
+	  
+	  @DefaultStringValue("beets")	  
+	  String BEETS();
+	  
 	  
   /**
    * Translated "almond".
