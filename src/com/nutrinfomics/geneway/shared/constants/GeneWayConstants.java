@@ -29,7 +29,7 @@ public interface GeneWayConstants extends ConstantsWithLookup {
 	@DefaultStringValue("Phone number")
 	String phonenumber();
 	
-	@DefaultStringValue("Brith date")
+	@DefaultStringValue("Birth date")
 	String birthdate();
 	
 	@DefaultStringValue("Weight")
@@ -164,7 +164,7 @@ public interface GeneWayConstants extends ConstantsWithLookup {
 	@DefaultStringValue("Thank you. Your phone has been verified")
 	String phoneVerified();
 
-	@DefaultStringValue("Code unmatch")
+	@DefaultStringValue("Code mismatch")
 	String wrongCodeTitle();
 
 	@DefaultStringValue("The code you have entered does not match. Please retry")
@@ -226,4 +226,81 @@ public interface GeneWayConstants extends ConstantsWithLookup {
 
 	@DefaultStringValue("Please accept the Terms of Service and the Privacy Policy.")
 	String acceptTermsText();
+
+	@DefaultStringValue("Session expired")
+	String sessionExpiredTitle();
+
+	@DefaultStringValue("Next")
+	String next();
+	
+	@DefaultStringValue("Demo")
+	String demo();
+
+	@DefaultStringValue("Pseudonym")
+	String nickname();
+	
+	@DefaultStringValue("Constipation")
+	String constipation();
+
+	@DefaultStringValue("Measurements")
+	String measurements();
+
+	@DefaultStringValue("Community")
+	String community();
+
+	@DefaultStringValue("Off the track!")
+	String imbalanceTitle();
+
+	@DefaultStringValue("Your indicators are out of balace. Please reconsider following the recommendations more precisely")
+	String imbalanceText();
+
+	@DefaultStringValue("Good work!")
+	String goodWorkTitle();
+
+	@DefaultStringValue("You have made a great progress! Keep up the good work")
+	String goodWorkText();
+
+	@DefaultStringValue("Diabetes")
+	String diabetes();
+
+	@DefaultStringValue("Hairloss")
+	String hairloss();
+
+	@DefaultStringValue("Cholesterol")
+	String cholesterol();
+
+	@DefaultStringValue("Fatigue")
+	String fatigue();
+
+	@DefaultStringValue("Triglycerides")
+	String triglycerides();
+
+	@DefaultStringValue("Arthritis")
+	String arthritis();
+
+	@DefaultStringValue("Arthritis")
+	String dear();
+	
+	@DefaultStringValue("Welcome")
+	String welcome();
+
+	@DefaultStringValue("Your status is:")
+	String yourStatus();
+
+	@DefaultStringValue("Identifier")
+	String identifier();
+
+	@DefaultStringValue("Unlock")
+	String unlock();
+
+	@DefaultStringValue("Unlock failed")
+	String unlockingFailedTitle();
+
+	@DefaultStringValue("The unlocking operation has failed. Please retry or contact the admin.")
+	String unlockingFailedText();
+
+	@DefaultStringValue("<h1> Non-Disclosure Agreement </h1>")
+	String ndaTitle();
+	
+	String ndaText();
 }

@@ -3,7 +3,7 @@ package com.nutrinfomics.geneway.shared;
 import java.io.Serializable;
 
 public class AuthenticationException extends Exception implements Serializable {
-	public enum AuthenticationExceptionType{INVALID_USERNAME, UNAUTHORIZED_DEVICE, INVALID_PASSWORD, INVALID_SESSION,
+	public enum AuthenticationExceptionType{INVALID_DEVICE_UUID, UNAUTHORIZED_DEVICE, INVALID_PASSWORD, INVALID_SESSION,
 									EXPIRED}
 	
 	private AuthenticationExceptionType type;

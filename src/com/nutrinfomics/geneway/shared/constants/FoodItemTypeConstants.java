@@ -18,6 +18,39 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 	  @DefaultStringValue("beets")	  
 	  String BEETS();
 	  
+	  @DefaultStringValue("armenian cucumber")	  
+	  String ARMENIAN_CUCUMBER();
+
+	  @DefaultStringValue("coconut milk")	  
+	  String COCONUT_MILK();
+
+	  @DefaultStringValue("tilapia")	  
+	  String TILAPIA();
+	  
+	  @DefaultStringValue("chicken breast")	  
+	  String CHICKEN_BREAST();
+
+	  @DefaultStringValue("beef sirloin")	  
+	  String BEEF_SIRLOIN();
+	  
+	  @DefaultStringValue("cashew")	  
+	  String CASHEW();
+	  
+	  @DefaultStringValue("cowpeas")	  	  
+	  String COWPEAS();
+
+	  @DefaultStringValue("pecan")	  	  
+	  String PECAN();
+
+	  @DefaultStringValue("tahini")	  	  
+	  String TAHINI();
+
+	  @DefaultStringValue("quinoa")	  	  
+	  String QUINOA();
+	  
+	  @DefaultStringValue("cod")	  	  
+	  String COD();
+	  
 	  
   /**
    * Translated "almond".
