@@ -50,7 +50,42 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 	  
 	  @DefaultStringValue("cod")	  	  
 	  String COD();
+
+	  @DefaultStringValue("chard")	  	  
+	  String CHARD_SWISS();
+
+	  @DefaultStringValue("peanut")	  	  
+	  String PEANUT();
+
+	  @DefaultStringValue("chicken wing")	  	  
+	  String CHICKEN_WING();
 	  
+	  @DefaultStringValue("baby salad (spinach, swiss chard, arugula)")	  	  	  
+	  String BABY_SALAD();
+
+	  @DefaultStringValue("basil")	  	  
+	  String BASIL();
+	  
+	  @DefaultStringValue("yogurt")	  	  	  
+	  String YOGURT();
+
+	  @DefaultStringValue("mullet")	  	  	  
+	  String MULLET();
+	  
+	  @DefaultStringValue("snapper")	  	  	  
+	  String SNAPPER();
+
+	  @DefaultStringValue("lemon")	  	  	  
+	  String LEMON();
+	  
+	  @DefaultStringValue("rice cake")
+	  String RICE_CAKE();
+	  
+	  @DefaultStringValue("corn flakes")
+	  String CORNFLAKES();
+
+	  @DefaultStringValue("peas")
+	  String PEA();
 	  
   /**
    * Translated "almond".
