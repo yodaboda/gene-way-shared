@@ -86,6 +86,24 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
 	  @DefaultStringValue("peas")
 	  String PEA();
+
+	  @DefaultStringValue("mussel")
+	  String MUSSEL();
+
+	  @DefaultStringValue("beef rib")
+	  String BEEF_RIB();
+	  
+	  @DefaultStringValue("kale")
+	  String KALE();
+	  
+	  @DefaultStringValue("chicken feet")
+	  String CHICKEN_FEET();
+	  
+	  @DefaultStringValue("green bean")
+	  String BEAN_GREEN();
+
+	  @DefaultStringValue("halva")
+	  String HALVAH();
 	  
   /**
    * Translated "almond".

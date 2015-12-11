@@ -29,19 +29,23 @@ public enum FoodItemType {
 	//foods from animal source
 	//land animals
 	LAMB(FoodCategory.MEAT), LAMB_LIVER(FoodCategory.MEAT), LAMB_BRAIN(FoodCategory.MEAT), LAMB_TONGUE(FoodCategory.MEAT), LAMB_SPLEEN(FoodCategory.MEAT),
-	BEEF(FoodCategory.MEAT), BEEF_TENDERLOIN(FoodCategory.MEAT), BEEF_SIRLOIN(FoodCategory.MEAT), BEEF_LIVER(FoodCategory.MEAT),
-	PORK(FoodCategory.MEAT), PORK_FEET(FoodCategory.MEAT),
+	BEEF(FoodCategory.MEAT), BEEF_TENDERLOIN(FoodCategory.MEAT), BEEF_SIRLOIN(FoodCategory.MEAT), 
+	BEEF_RIB(FoodCategory.MEAT), BEEF_LIVER(FoodCategory.MEAT),
+	PORK(FoodCategory.MEAT), PORK_FEET(FoodCategory.MEAT), PORK_FEET_PICKLED(FoodCategory.MEAT),
 	CHICKEN_DRUMSTICK(FoodCategory.MEAT), CHICKEN(FoodCategory.MEAT), 
 	CHICKEN_LIVER(FoodCategory.MEAT), CHICKEN_LEG(FoodCategory.MEAT), 
 	CHICKEN_BREAST(FoodCategory.MEAT), CHICKEN_WING(FoodCategory.MEAT),
+	CHICKEN_FEET(FoodCategory.MEAT),
 	GOAT(FoodCategory.MEAT), 
 	TURKEY(FoodCategory.MEAT),
 	//diary
 	CHEESE_FETA(FoodCategory.DAIRY), GOUDA_CHEESE(FoodCategory.DAIRY), MILK1P(FoodCategory.DAIRY), 
 	YOGURT(FoodCategory.DAIRY), YOGURT_GREEK(FoodCategory.DAIRY),
 	CHEESE_COTTAGE(FoodCategory.DAIRY),BUTTER(FoodCategory.DAIRY),
+	MILK_HUMAN(FoodCategory.DAIRY),
 	//water animals
-	SALMON(FoodCategory.FISH), OYSTER(FoodCategory.SEAFOOD), CRAB(FoodCategory.SEAFOOD), OCTOPUS(FoodCategory.SEAFOOD),
+	SALMON(FoodCategory.FISH), OYSTER(FoodCategory.SEAFOOD), CRAB(FoodCategory.SEAFOOD), 
+	MUSSEL(FoodCategory.SEAFOOD), OCTOPUS(FoodCategory.SEAFOOD),
 	SQUID(FoodCategory.SEAFOOD), SHRIMP(FoodCategory.SEAFOOD), GROUPER(FoodCategory.FISH), GILT_HEAD_BREAM(FoodCategory.FISH),
 	TUNA_CANNED(FoodCategory.FISH), SARDINE(FoodCategory.FISH), TILAPIA(FoodCategory.FISH), COD(FoodCategory.FISH),
 	MULLET(FoodCategory.FISH), SNAPPER(FoodCategory.FISH),
@@ -60,6 +64,7 @@ public enum FoodItemType {
 	HONEY(FoodCategory.OTHER),
 	//vegetable
 	JUTE(FoodCategory.VEGETABLE), OKRA(FoodCategory.VEGETABLE), SPINACH(FoodCategory.VEGETABLE), PARSLEY(FoodCategory.VEGETABLE),
+	KALE(FoodCategory.VEGETABLE),
 	LAVER(FoodCategory.VEGETABLE), KELP(FoodCategory.VEGETABLE), WAKAME(FoodCategory.VEGETABLE),
 	LETTUCE(FoodCategory.VEGETABLE), ARUGULA(FoodCategory.VEGETABLE), BASIL(FoodCategory.VEGETABLE),
 	BROCCOLI(FoodCategory.VEGETABLE),
@@ -71,7 +76,8 @@ public enum FoodItemType {
 	BULGUR(FoodCategory.CEREAL), RICE(FoodCategory.CEREAL), RICE_CAKE(FoodCategory.CEREAL),
 	QUINOA(FoodCategory.CEREAL), CORNFLAKES(FoodCategory.CEREAL),
 	//legume
-	CHICKPEA(FoodCategory.LEGUME), BROADBEAN(FoodCategory.LEGUME), LENTIL(FoodCategory.LEGUME), BEAN_SNAP_YELLOW(FoodCategory.LEGUME),
+	CHICKPEA(FoodCategory.LEGUME), BROADBEAN(FoodCategory.LEGUME), LENTIL(FoodCategory.LEGUME), 
+	BEAN_SNAP_YELLOW(FoodCategory.LEGUME), BEAN_GREEN(FoodCategory.LEGUME),
 	COWPEAS(FoodCategory.LEGUME), PEA(FoodCategory.LEGUME),
 	//sprouts
 	SPROUT_MUNG_BEAN(FoodCategory.SPROUT),
@@ -80,7 +86,7 @@ public enum FoodItemType {
 	//baked
 	PITA_WHITE(FoodCategory.BAKED),
 	//seeds
-	 TAHINI(FoodCategory.SEED),
+	 TAHINI(FoodCategory.SEED), HALVAH(FoodCategory.SEED),
 	CHOCOLATE_CAKE(FoodCategory.COMPOSITE), ROCK_CAKE(FoodCategory.COMPOSITE), BABY_SALAD(FoodCategory.COMPOSITE);
 	private FoodCategory foodCategory;
 	
