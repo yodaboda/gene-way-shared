@@ -21,7 +21,13 @@ public enum MeasurementUnit{
 			else if(measurementUnit.equals("µg")){
 				return MICROGRAM;
 			}
-			else throw ex;
+			else if(measurementUnit.equals("�g")){
+				return MICROGRAM;
+			}
+			else{
+				System.out.println(measurementUnit);
+				throw ex;
+			}
 		}
 	}
 	

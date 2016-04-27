@@ -1,5 +1,7 @@
 package com.nutrinfomics.geneway.shared;
 
+import com.google.web.bindery.autobean.shared.AutoBeanFactory.Category;
+
 
 
 public enum FoodItemType {
@@ -28,14 +30,20 @@ public enum FoodItemType {
 	FIG_DRIED(FoodCategory.FRUIT), APRICOT_DRIED(FoodCategory.FRUIT), PLUM_DRIED(FoodCategory.FRUIT),RAISIN(FoodCategory.FRUIT),
 	//foods from animal source
 	//land animals
-	LAMB(FoodCategory.MEAT), LAMB_LIVER(FoodCategory.MEAT), LAMB_BRAIN(FoodCategory.MEAT), LAMB_TONGUE(FoodCategory.MEAT), LAMB_SPLEEN(FoodCategory.MEAT),
+	LAMB(FoodCategory.MEAT), LAMB_LEG_SIRLOIN(FoodCategory.MEAT), LAMB_LIVER(FoodCategory.MEAT), 
+	LAMB_BRAIN(FoodCategory.MEAT), LAMB_TONGUE(FoodCategory.MEAT), LAMB_SPLEEN(FoodCategory.MEAT),
+	LAMB_HEART(FoodCategory.MEAT),
 	BEEF(FoodCategory.MEAT), BEEF_TENDERLOIN(FoodCategory.MEAT), BEEF_SIRLOIN(FoodCategory.MEAT), 
-	BEEF_RIB(FoodCategory.MEAT), BEEF_LIVER(FoodCategory.MEAT),
+	BEEF_RIB(FoodCategory.MEAT), BEEF_CHUCK_EYE_STEAK(FoodCategory.MEAT),
+	BEEF_LIVER(FoodCategory.MEAT), BEEF_HEART_NZ(FoodCategory.MEAT), OXTAIL(FoodCategory.MEAT),
 	PORK(FoodCategory.MEAT), PORK_FEET(FoodCategory.MEAT), PORK_FEET_PICKLED(FoodCategory.MEAT),
+	PIG_EAR(FoodCategory.MEAT), PORK_LIVER(FoodCategory.MEAT), PORK_HEART(FoodCategory.MEAT),
+	PORK_TONGUE(FoodCategory.MEAT), LARD(FoodCategory.MEAT),
 	CHICKEN_DRUMSTICK(FoodCategory.MEAT), CHICKEN(FoodCategory.MEAT), 
-	CHICKEN_LIVER(FoodCategory.MEAT), CHICKEN_LEG(FoodCategory.MEAT), 
+	CHICKEN_LIVER(FoodCategory.MEAT), CHICKEN_HEART(FoodCategory.MEAT),
+	CHICKEN_LEG(FoodCategory.MEAT), 
 	CHICKEN_BREAST(FoodCategory.MEAT), CHICKEN_WING(FoodCategory.MEAT),
-	CHICKEN_FEET(FoodCategory.MEAT),
+	CHICKEN_FEET(FoodCategory.MEAT), CHICKEN_NECK(FoodCategory.MEAT),
 	GOAT(FoodCategory.MEAT), 
 	TURKEY(FoodCategory.MEAT),
 	//diary
@@ -47,8 +55,9 @@ public enum FoodItemType {
 	SALMON(FoodCategory.FISH), OYSTER(FoodCategory.SEAFOOD), CRAB(FoodCategory.SEAFOOD), 
 	MUSSEL(FoodCategory.SEAFOOD), OCTOPUS(FoodCategory.SEAFOOD),
 	SQUID(FoodCategory.SEAFOOD), SHRIMP(FoodCategory.SEAFOOD), GROUPER(FoodCategory.FISH), GILT_HEAD_BREAM(FoodCategory.FISH),
-	TUNA_CANNED(FoodCategory.FISH), SARDINE(FoodCategory.FISH), TILAPIA(FoodCategory.FISH), COD(FoodCategory.FISH),
-	MULLET(FoodCategory.FISH), SNAPPER(FoodCategory.FISH),
+	TUNA_CANNED(FoodCategory.FISH), TUNA_BLUEFIN(FoodCategory.FISH),
+	SARDINE(FoodCategory.FISH), TILAPIA(FoodCategory.FISH), COD(FoodCategory.FISH),
+	MULLET(FoodCategory.FISH), SNAPPER(FoodCategory.FISH), TROUT(FoodCategory.FISH),
 	
 	EGG_YOLK(FoodCategory.EGG), EGG(FoodCategory.EGG), EGG_WHITE(FoodCategory.EGG),
 	//roots
@@ -64,17 +73,20 @@ public enum FoodItemType {
 	HONEY(FoodCategory.OTHER),
 	//vegetable
 	JUTE(FoodCategory.VEGETABLE), OKRA(FoodCategory.VEGETABLE), SPINACH(FoodCategory.VEGETABLE), PARSLEY(FoodCategory.VEGETABLE),
+	CORIANDER(FoodCategory.VEGETABLE),
 	KALE(FoodCategory.VEGETABLE),
 	LAVER(FoodCategory.VEGETABLE), KELP(FoodCategory.VEGETABLE), WAKAME(FoodCategory.VEGETABLE),
 	LETTUCE(FoodCategory.VEGETABLE), ARUGULA(FoodCategory.VEGETABLE), BASIL(FoodCategory.VEGETABLE),
 	BROCCOLI(FoodCategory.VEGETABLE),
 	SPEARMINT(FoodCategory.VEGETABLE), ONION_YOUNG_GREEN(FoodCategory.VEGETABLE), CABBAGE(FoodCategory.VEGETABLE),
 	ARTICHOKE(FoodCategory.VEGETABLE), CAULIFLOWER(FoodCategory.VEGETABLE), CHARD_SWISS(FoodCategory.VEGETABLE),
+	CELERY(FoodCategory.VEGETABLE), ENDIVE(FoodCategory.VEGETABLE), CHICORY(FoodCategory.VEGETABLE),
 	//fungus
 	MUSHROOM(FoodCategory.FUNGUS),
 	//cereals
 	BULGUR(FoodCategory.CEREAL), RICE(FoodCategory.CEREAL), RICE_CAKE(FoodCategory.CEREAL),
 	QUINOA(FoodCategory.CEREAL), CORNFLAKES(FoodCategory.CEREAL),
+	OAT(FoodCategory.CEREAL),
 	//legume
 	CHICKPEA(FoodCategory.LEGUME), BROADBEAN(FoodCategory.LEGUME), LENTIL(FoodCategory.LEGUME), 
 	BEAN_SNAP_YELLOW(FoodCategory.LEGUME), BEAN_GREEN(FoodCategory.LEGUME),

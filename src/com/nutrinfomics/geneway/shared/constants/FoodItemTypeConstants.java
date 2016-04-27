@@ -104,6 +104,60 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
 	  @DefaultStringValue("halva")
 	  String HALVAH();
+
+	  @DefaultStringValue("celery")
+	  String CELERY();
+
+	  @DefaultStringValue("chicken neck")
+	  String CHICKEN_NECK();
+	  
+	  @DefaultStringValue("bulgur")
+	  String BULGUR();
+
+	  @DefaultStringValue("trout")
+	  String TROUT();
+
+	  @DefaultStringValue("chicken heart")
+	  String CHICKEN_HEART();
+
+	  @DefaultStringValue("oat")
+	  String OAT();
+
+	  @DefaultStringValue("tuna")
+	  String TUNA_BLUEFIN();
+
+	  @DefaultStringValue("butter")
+	  String BUTTER();
+
+	  @DefaultStringValue("chicory")
+	  String CHICORY();
+	  
+	  @DefaultStringValue("beef chuck eye steak")	  
+	  String BEEF_CHUCK_EYE_STEAK();
+
+	  @DefaultStringValue("coriander (cilantro)")	  
+	  String CORIANDER();
+
+	  @DefaultStringValue("lamb leg (sirloin)")
+	  String LAMB_LEG_SIRLOIN();
+
+	  @DefaultStringValue("pig ear")
+	  String PIG_EAR();
+
+	  @DefaultStringValue("pork liver")
+	  String PORK_LIVER();
+	  
+	  @DefaultStringValue("pork heart")
+	  String PORK_HEART();
+	  
+	  @DefaultStringValue("lamb heart")
+	  String LAMB_HEART();
+	  
+	  @DefaultStringValue("lard")
+	  String LARD();
+	  
+	  @DefaultStringValue("pork tongue")
+	  String PORK_TONGUE();
 	  
   /**
    * Translated "almond".
