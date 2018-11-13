@@ -6,11 +6,12 @@ import org.junit.Test;
 
 import com.nutrinfomics.geneway.shared.AuthenticationException.AuthenticationExceptionType;
 
-public class AuthenticationExceptionTest {
+
+public class ActionExceptionTest {
 
 	@Test
 	public void testGetType() {
-		AuthenticationException ae = new AuthenticationException(AuthenticationExceptionType.INVALID_PASSWORD);
+		ActionException ae = new ActionException(AuthenticationExceptionType.INVALID_PASSWORD);
 		assertEquals(AuthenticationExceptionType.INVALID_PASSWORD, ae.getType());
 	}
 
