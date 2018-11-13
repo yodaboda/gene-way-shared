@@ -8,29 +8,16 @@ public class AuthenticationException extends Exception implements Serializable {
 	
 	private AuthenticationExceptionType type;
 	
-	public AuthenticationException(){
-		
-	}
-	
 	public AuthenticationException(AuthenticationExceptionType type){
-		this(type, "");
-	}
-
-	public AuthenticationException(AuthenticationExceptionType type, String message){
-		super(message);
-		this.setType(type);
+		super(type.toString());
+		setType(type);
 	}
 	
 	public AuthenticationExceptionType getType() {
 		return type;
 	}
 
-	public void setType(AuthenticationExceptionType type) {
+	private void setType(AuthenticationExceptionType type) {
 		this.type = type;
-	}
-	
-	@Override
-	public String getMessage(){
-		return type.toString();
 	}
 }

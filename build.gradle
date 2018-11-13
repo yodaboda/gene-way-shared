@@ -1,11 +1,18 @@
 apply plugin: 'java'
 
+apply from: '/Users/firas1/Documents/gene-way-workspace/gene-way-app/config.gradle'
+
 sourceSets {
         main {
                 java {
                         srcDir 'src'
                 }
         }
+        test {
+        	java {
+            	srcDirs = ["test"] 
+        	}
+    	}
 }
 
 
@@ -17,11 +24,13 @@ jar {
 	}
     manifest {
         attributes 'Implementation-Title': 'Gene-Way shared',
-                   'Implementation-Version': version
+                   'Implementation-Version': project.ext.version
     }
 }
 
 dependencies {
 	compile 'com.google.gwt:gwt-servlet:2.7.0'
+	
+	testCompile "junit:junit:4.12" 
 }
 
