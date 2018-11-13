@@ -32,9 +32,12 @@ public enum MeasurementUnit{
 	}
 	
 	public static MeasurementUnit[] parse(String[] nutrientsUnits, int from) {
+		if(nutrientsUnits == null || nutrientsUnits.length <= from){
+			return null;
+		}
 		MeasurementUnit[] nutrientUnits = new MeasurementUnit[nutrientsUnits.length - from];
 		for(int i = from; i < nutrientsUnits.length; ++i){
-			nutrientUnits[i - from] = MeasurementUnit.valueOf(nutrientsUnits[i]);
+			nutrientUnits[i - from] = MeasurementUnit.parse(nutrientsUnits[i]);
 		}
 		return nutrientUnits;
 	}
