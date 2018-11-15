@@ -1,0 +1,36 @@
+allprojects{
+	repositories{
+		mavenLocal()
+        	mavenCentral()
+                
+        	maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+        	flatDir {
+                dirs System.properties['user.home'] + '/Documents/gene-way-workspace/gene-way-app/extraDependencies/langdetect/lib'
+       		}	
+	}
+}
+
+project.ext.version = 1
+
+apply plugin: 'eclipse'
+eclipse {
+    classpath {
+        downloadJavadoc = true
+        downloadSources = true
+    }
+}
+
+task sourcesJar(type: Jar, dependsOn: classes) {
+    classifier = 'sources'
+    from sourceSets.main.allSource
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    classifier = 'javadoc'
+    from javadoc.destinationDir
+}
+
+artifacts {
+    archives sourcesJar
+    archives javadocJar
+}
