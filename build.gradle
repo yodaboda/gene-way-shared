@@ -1,7 +1,9 @@
 apply plugin: 'java'
 
-apply from: '/Users/firas1/Documents/gene-way-workspace/gene-way-app/config.gradle'
-
+apply from: 'config.gradle'
+//buildscript {
+//  apply from: 'config.gradle', to: buildscript
+//}
 jar {
 	from sourceSets.main.allJava
 	from (projectDir.toString() + '/src'){
