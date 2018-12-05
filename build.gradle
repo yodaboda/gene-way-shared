@@ -16,6 +16,5 @@ jar {
 
 dependencies {
 	implementation 'com.google.gwt:gwt-servlet:2.7.0'
-	testImplementation "junit:junit:4.12" 
+	testImplementation "junit:junit:4.12"
 }
-
