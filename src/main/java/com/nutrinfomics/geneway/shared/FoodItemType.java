@@ -1,9 +1,5 @@
 package com.nutrinfomics.geneway.shared;
 
-import com.google.web.bindery.autobean.shared.AutoBeanFactory.Category;
-
-
-
 public enum FoodItemType {
 	//fruits:
 	//spring fruits:
