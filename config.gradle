@@ -1,3 +1,14 @@
+allprojects {
+    repositories {
+		mavenLocal()
+        mavenCentral()   
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }	
+        flatDir {
+        	dirs System.properties['user.home'] + '/Documents/gene-way-workspace/gene-way-app/extraDependencies/langdetect/lib'
+       	}
+    }
+}
+
 buildscript{
 	repositories{
 		mavenLocal()

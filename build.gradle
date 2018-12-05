@@ -1,9 +1,7 @@
 apply plugin: 'java'
 
 apply from: 'config.gradle'
-//buildscript {
-//  apply from: 'config.gradle', to: buildscript
-//}
+
 jar {
 	from sourceSets.main.allJava
 	from (projectDir.toString() + '/src'){
