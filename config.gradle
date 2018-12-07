@@ -21,8 +21,7 @@ buildscript{
 	dependencies {
     	classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.6.2"
     	classpath "com.diffplug.spotless:spotless-plugin-gradle:3.16.0"
-    	//classpath 'com.netflix.nebula:gradle-lint-plugin:latest.release'
-    	
+    	classpath 'com.netflix.nebula:gradle-lint-plugin:latest.release'
   	}
 	tasks.withType(Test) {
         maxParallelForks = Runtime.runtime.availableProcessors().intdiv(2) ?: 1 
@@ -33,8 +32,12 @@ project.ext.version = 1
 
 apply plugin: org.sonarqube.gradle.SonarQubePlugin
 apply plugin: com.diffplug.gradle.spotless.SpotlessPlugin
-//apply plugin: 'nebula.lint'
-//gradleLint.rules = ['all-dependency']
+
+apply plugin: com.netflix.nebula.lint.plugin.GradleLintPlugin
+gradleLint {
+      rules = ['deprecated-dependency-configuration'] 
+      criticalRules = []
+}
 
 apply plugin: 'eclipse'
 eclipse {

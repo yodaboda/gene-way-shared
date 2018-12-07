@@ -2,6 +2,7 @@ apply plugin: 'java-library'
 
 apply from: 'config.gradle'
 
+
 jar {
 	from sourceSets.main.allJava
 	from (projectDir.toString() + '/src'){
