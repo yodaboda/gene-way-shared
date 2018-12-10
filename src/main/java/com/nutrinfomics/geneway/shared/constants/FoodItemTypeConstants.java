@@ -2,166 +2,166 @@ package com.nutrinfomics.geneway.shared.constants;
 
 /**
  * Interface to represent the constants contained in resource bundle:
- * 	'/home/firas/Documents/gene-way-workspace/gene-way-app/app/src/com/nutrinfomics/geneway/client/constants/FoodItemTypeConstants.properties'.
+ * '/home/firas/Documents/gene-way-workspace/gene-way-app/app/src/com/nutrinfomics/geneway/client/constants/FoodItemTypeConstants.properties'.
  */
 public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.ConstantsWithLookup {
 
-	  @DefaultStringValue("sardine")
-	String SARDINE();
+  @DefaultStringValue("sardine")
+  String SARDINE();
 
-	  @DefaultStringValue("gouda cheese")
-	  String GOUDA_CHEESE();
-	  
-	  @DefaultStringValue("peppers green")	  
-	  String PEPPERS_GREEN();
-	  
-	  @DefaultStringValue("beets")	  
-	  String BEETS();
-	  
-	  @DefaultStringValue("armenian cucumber")	  
-	  String ARMENIAN_CUCUMBER();
+  @DefaultStringValue("gouda cheese")
+  String GOUDA_CHEESE();
 
-	  @DefaultStringValue("coconut milk")	  
-	  String COCONUT_MILK();
+  @DefaultStringValue("peppers green")
+  String PEPPERS_GREEN();
 
-	  @DefaultStringValue("tilapia")	  
-	  String TILAPIA();
-	  
-	  @DefaultStringValue("chicken breast")	  
-	  String CHICKEN_BREAST();
+  @DefaultStringValue("beets")
+  String BEETS();
 
-	  @DefaultStringValue("beef sirloin")	  
-	  String BEEF_SIRLOIN();
-	  
-	  @DefaultStringValue("cashew")	  
-	  String CASHEW();
-	  
-	  @DefaultStringValue("cowpeas")	  	  
-	  String COWPEAS();
+  @DefaultStringValue("armenian cucumber")
+  String ARMENIAN_CUCUMBER();
 
-	  @DefaultStringValue("pecan")	  	  
-	  String PECAN();
+  @DefaultStringValue("coconut milk")
+  String COCONUT_MILK();
 
-	  @DefaultStringValue("tahini")	  	  
-	  String TAHINI();
+  @DefaultStringValue("tilapia")
+  String TILAPIA();
 
-	  @DefaultStringValue("quinoa")	  	  
-	  String QUINOA();
-	  
-	  @DefaultStringValue("cod")	  	  
-	  String COD();
+  @DefaultStringValue("chicken breast")
+  String CHICKEN_BREAST();
 
-	  @DefaultStringValue("chard")	  	  
-	  String CHARD_SWISS();
+  @DefaultStringValue("beef sirloin")
+  String BEEF_SIRLOIN();
 
-	  @DefaultStringValue("peanut")	  	  
-	  String PEANUT();
+  @DefaultStringValue("cashew")
+  String CASHEW();
 
-	  @DefaultStringValue("chicken wing")	  	  
-	  String CHICKEN_WING();
-	  
-	  @DefaultStringValue("baby salad (spinach, swiss chard, arugula)")	  	  	  
-	  String BABY_SALAD();
+  @DefaultStringValue("cowpeas")
+  String COWPEAS();
 
-	  @DefaultStringValue("basil")	  	  
-	  String BASIL();
-	  
-	  @DefaultStringValue("yogurt")	  	  	  
-	  String YOGURT();
+  @DefaultStringValue("pecan")
+  String PECAN();
 
-	  @DefaultStringValue("mullet")	  	  	  
-	  String MULLET();
-	  
-	  @DefaultStringValue("snapper")	  	  	  
-	  String SNAPPER();
+  @DefaultStringValue("tahini")
+  String TAHINI();
 
-	  @DefaultStringValue("lemon")	  	  	  
-	  String LEMON();
-	  
-	  @DefaultStringValue("rice cake")
-	  String RICE_CAKE();
-	  
-	  @DefaultStringValue("corn flakes")
-	  String CORNFLAKES();
+  @DefaultStringValue("quinoa")
+  String QUINOA();
 
-	  @DefaultStringValue("peas")
-	  String PEA();
+  @DefaultStringValue("cod")
+  String COD();
 
-	  @DefaultStringValue("mussel")
-	  String MUSSEL();
+  @DefaultStringValue("chard")
+  String CHARD_SWISS();
 
-	  @DefaultStringValue("beef rib")
-	  String BEEF_RIB();
-	  
-	  @DefaultStringValue("kale")
-	  String KALE();
-	  
-	  @DefaultStringValue("chicken feet")
-	  String CHICKEN_FEET();
-	  
-	  @DefaultStringValue("green bean")
-	  String BEAN_GREEN();
+  @DefaultStringValue("peanut")
+  String PEANUT();
 
-	  @DefaultStringValue("halva")
-	  String HALVAH();
+  @DefaultStringValue("chicken wing")
+  String CHICKEN_WING();
 
-	  @DefaultStringValue("celery")
-	  String CELERY();
+  @DefaultStringValue("baby salad (spinach, swiss chard, arugula)")
+  String BABY_SALAD();
 
-	  @DefaultStringValue("chicken neck")
-	  String CHICKEN_NECK();
-	  
-	  @DefaultStringValue("bulgur")
-	  String BULGUR();
+  @DefaultStringValue("basil")
+  String BASIL();
 
-	  @DefaultStringValue("trout")
-	  String TROUT();
+  @DefaultStringValue("yogurt")
+  String YOGURT();
 
-	  @DefaultStringValue("chicken heart")
-	  String CHICKEN_HEART();
+  @DefaultStringValue("mullet")
+  String MULLET();
 
-	  @DefaultStringValue("oat")
-	  String OAT();
+  @DefaultStringValue("snapper")
+  String SNAPPER();
 
-	  @DefaultStringValue("tuna")
-	  String TUNA_BLUEFIN();
+  @DefaultStringValue("lemon")
+  String LEMON();
 
-	  @DefaultStringValue("butter")
-	  String BUTTER();
+  @DefaultStringValue("rice cake")
+  String RICE_CAKE();
 
-	  @DefaultStringValue("chicory")
-	  String CHICORY();
-	  
-	  @DefaultStringValue("beef chuck eye steak")	  
-	  String BEEF_CHUCK_EYE_STEAK();
+  @DefaultStringValue("corn flakes")
+  String CORNFLAKES();
 
-	  @DefaultStringValue("coriander (cilantro)")	  
-	  String CORIANDER();
+  @DefaultStringValue("peas")
+  String PEA();
 
-	  @DefaultStringValue("lamb leg (sirloin)")
-	  String LAMB_LEG_SIRLOIN();
+  @DefaultStringValue("mussel")
+  String MUSSEL();
 
-	  @DefaultStringValue("pig ear")
-	  String PIG_EAR();
+  @DefaultStringValue("beef rib")
+  String BEEF_RIB();
 
-	  @DefaultStringValue("pork liver")
-	  String PORK_LIVER();
-	  
-	  @DefaultStringValue("pork heart")
-	  String PORK_HEART();
-	  
-	  @DefaultStringValue("lamb heart")
-	  String LAMB_HEART();
-	  
-	  @DefaultStringValue("lard")
-	  String LARD();
-	  
-	  @DefaultStringValue("pork tongue")
-	  String PORK_TONGUE();
-	  
+  @DefaultStringValue("kale")
+  String KALE();
+
+  @DefaultStringValue("chicken feet")
+  String CHICKEN_FEET();
+
+  @DefaultStringValue("green bean")
+  String BEAN_GREEN();
+
+  @DefaultStringValue("halva")
+  String HALVAH();
+
+  @DefaultStringValue("celery")
+  String CELERY();
+
+  @DefaultStringValue("chicken neck")
+  String CHICKEN_NECK();
+
+  @DefaultStringValue("bulgur")
+  String BULGUR();
+
+  @DefaultStringValue("trout")
+  String TROUT();
+
+  @DefaultStringValue("chicken heart")
+  String CHICKEN_HEART();
+
+  @DefaultStringValue("oat")
+  String OAT();
+
+  @DefaultStringValue("tuna")
+  String TUNA_BLUEFIN();
+
+  @DefaultStringValue("butter")
+  String BUTTER();
+
+  @DefaultStringValue("chicory")
+  String CHICORY();
+
+  @DefaultStringValue("beef chuck eye steak")
+  String BEEF_CHUCK_EYE_STEAK();
+
+  @DefaultStringValue("coriander (cilantro)")
+  String CORIANDER();
+
+  @DefaultStringValue("lamb leg (sirloin)")
+  String LAMB_LEG_SIRLOIN();
+
+  @DefaultStringValue("pig ear")
+  String PIG_EAR();
+
+  @DefaultStringValue("pork liver")
+  String PORK_LIVER();
+
+  @DefaultStringValue("pork heart")
+  String PORK_HEART();
+
+  @DefaultStringValue("lamb heart")
+  String LAMB_HEART();
+
+  @DefaultStringValue("lard")
+  String LARD();
+
+  @DefaultStringValue("pork tongue")
+  String PORK_TONGUE();
+
   /**
    * Translated "almond".
-   * 
+   *
    * @return translated "almond"
    */
   @DefaultStringValue("almond")
@@ -170,7 +170,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "apple".
-   * 
+   *
    * @return translated "apple"
    */
   @DefaultStringValue("apple")
@@ -179,7 +179,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "peeled apple".
-   * 
+   *
    * @return translated "peeled apple"
    */
   @DefaultStringValue("peeled apple")
@@ -188,7 +188,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "apricot".
-   * 
+   *
    * @return translated "apricot"
    */
   @DefaultStringValue("apricot")
@@ -197,7 +197,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "dried apricot".
-   * 
+   *
    * @return translated "dried apricot"
    */
   @DefaultStringValue("dried apricot")
@@ -206,7 +206,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "artichoke".
-   * 
+   *
    * @return translated "artichoke"
    */
   @DefaultStringValue("artichoke")
@@ -215,7 +215,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "arugula".
-   * 
+   *
    * @return translated "arugula"
    */
   @DefaultStringValue("arugula")
@@ -224,7 +224,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "avocado".
-   * 
+   *
    * @return translated "avocado"
    */
   @DefaultStringValue("avocado")
@@ -233,7 +233,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "banana".
-   * 
+   *
    * @return translated "banana"
    */
   @DefaultStringValue("banana")
@@ -242,7 +242,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "yellow bean snap".
-   * 
+   *
    * @return translated "yellow bean snap"
    */
   @DefaultStringValue("yellow bean snap")
@@ -251,7 +251,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "beef".
-   * 
+   *
    * @return translated "beef"
    */
   @DefaultStringValue("beef")
@@ -260,7 +260,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "beef liver".
-   * 
+   *
    * @return translated "beef liver"
    */
   @DefaultStringValue("beef liver")
@@ -269,7 +269,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "beef tenderloin".
-   * 
+   *
    * @return translated "beef tenderloin"
    */
   @DefaultStringValue("beef tenderloin")
@@ -278,7 +278,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "blackberries".
-   * 
+   *
    * @return translated "blackberries"
    */
   @DefaultStringValue("blackberries")
@@ -287,7 +287,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "blueberries".
-   * 
+   *
    * @return translated "blueberries"
    */
   @DefaultStringValue("blueberries")
@@ -296,7 +296,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "brazilnut".
-   * 
+   *
    * @return translated "brazilnut"
    */
   @DefaultStringValue("brazilnut")
@@ -305,7 +305,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "broadbean (fava bean)".
-   * 
+   *
    * @return translated "broadbean (fava bean)"
    */
   @DefaultStringValue("broadbean (fava bean)")
@@ -314,7 +314,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "broccoli".
-   * 
+   *
    * @return translated "broccoli"
    */
   @DefaultStringValue("broccoli")
@@ -323,7 +323,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "cabbage".
-   * 
+   *
    * @return translated "cabbage"
    */
   @DefaultStringValue("cabbage")
@@ -332,7 +332,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "cantaloupe".
-   * 
+   *
    * @return translated "cantaloupe"
    */
   @DefaultStringValue("cantaloupe")
@@ -341,7 +341,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "carrot".
-   * 
+   *
    * @return translated "carrot"
    */
   @DefaultStringValue("carrot")
@@ -350,7 +350,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "carrot juice".
-   * 
+   *
    * @return translated "carrot juice"
    */
   @DefaultStringValue("carrot juice")
@@ -359,7 +359,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "cauliflower".
-   * 
+   *
    * @return translated "cauliflower"
    */
   @DefaultStringValue("cauliflower")
@@ -368,7 +368,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "cottage cheese".
-   * 
+   *
    * @return translated "cottage cheese"
    */
   @DefaultStringValue("cottage cheese")
@@ -377,7 +377,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "feta cheese".
-   * 
+   *
    * @return translated "feta cheese"
    */
   @DefaultStringValue("feta cheese")
@@ -386,7 +386,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "chestnut".
-   * 
+   *
    * @return translated "chestnut"
    */
   @DefaultStringValue("chestnut")
@@ -395,7 +395,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "chicken".
-   * 
+   *
    * @return translated "chicken"
    */
   @DefaultStringValue("chicken")
@@ -404,7 +404,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "chicken drumstick".
-   * 
+   *
    * @return translated "chicken drumstick"
    */
   @DefaultStringValue("chicken drumstick")
@@ -413,7 +413,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "chicken leg".
-   * 
+   *
    * @return translated "chicken leg"
    */
   @DefaultStringValue("chicken leg")
@@ -422,7 +422,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "chicken liver".
-   * 
+   *
    * @return translated "chicken liver"
    */
   @DefaultStringValue("chicken liver")
@@ -431,7 +431,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "chickpea".
-   * 
+   *
    * @return translated "chickpea"
    */
   @DefaultStringValue("chickpea")
@@ -440,7 +440,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "chocolate cake".
-   * 
+   *
    * @return translated "chocolate cake"
    */
   @DefaultStringValue("chocolate cake")
@@ -449,7 +449,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "coconut".
-   * 
+   *
    * @return translated "coconut"
    */
   @DefaultStringValue("coconut")
@@ -458,7 +458,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "coconut flakes".
-   * 
+   *
    * @return translated "coconut flakes"
    */
   @DefaultStringValue("coconut flakes")
@@ -467,7 +467,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "coconut flour".
-   * 
+   *
    * @return translated "coconut flour"
    */
   @DefaultStringValue("coconut flour")
@@ -476,7 +476,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "coconut oil".
-   * 
+   *
    * @return translated "coconut oil"
    */
   @DefaultStringValue("coconut oil")
@@ -485,7 +485,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "instant coffee".
-   * 
+   *
    * @return translated "instant coffee"
    */
   @DefaultStringValue("instant coffee")
@@ -494,7 +494,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "crab".
-   * 
+   *
    * @return translated "crab"
    */
   @DefaultStringValue("crab")
@@ -503,7 +503,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "cranberries".
-   * 
+   *
    * @return translated "cranberries"
    */
   @DefaultStringValue("cranberries")
@@ -512,7 +512,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "peeled cucumber".
-   * 
+   *
    * @return translated "peeled cucumber"
    */
   @DefaultStringValue("peeled cucumber")
@@ -521,7 +521,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "date".
-   * 
+   *
    * @return translated "date"
    */
   @DefaultStringValue("date")
@@ -530,7 +530,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "yellow date".
-   * 
+   *
    * @return translated "yellow date"
    */
   @DefaultStringValue("yellow date")
@@ -539,7 +539,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "egg".
-   * 
+   *
    * @return translated "egg"
    */
   @DefaultStringValue("egg")
@@ -548,7 +548,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "eggplant".
-   * 
+   *
    * @return translated "eggplant"
    */
   @DefaultStringValue("eggplant")
@@ -557,7 +557,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "egg white".
-   * 
+   *
    * @return translated "egg white"
    */
   @DefaultStringValue("egg white")
@@ -566,7 +566,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "egg yolk".
-   * 
+   *
    * @return translated "egg yolk"
    */
   @DefaultStringValue("egg yolk")
@@ -575,7 +575,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "fig".
-   * 
+   *
    * @return translated "fig"
    */
   @DefaultStringValue("fig")
@@ -584,7 +584,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "dried fig".
-   * 
+   *
    * @return translated "dried fig"
    */
   @DefaultStringValue("dried fig")
@@ -593,7 +593,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "garlic".
-   * 
+   *
    * @return translated "garlic"
    */
   @DefaultStringValue("garlic")
@@ -602,7 +602,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "gilt head beam".
-   * 
+   *
    * @return translated "gilt head beam"
    */
   @DefaultStringValue("gilt head beam")
@@ -611,7 +611,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "goat".
-   * 
+   *
    * @return translated "goat"
    */
   @DefaultStringValue("goat")
@@ -620,7 +620,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "grape".
-   * 
+   *
    * @return translated "grape"
    */
   @DefaultStringValue("grape")
@@ -629,7 +629,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "grapefruit".
-   * 
+   *
    * @return translated "grapefruit"
    */
   @DefaultStringValue("grapefruit")
@@ -638,7 +638,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "grouper".
-   * 
+   *
    * @return translated "grouper"
    */
   @DefaultStringValue("grouper")
@@ -647,7 +647,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "guava".
-   * 
+   *
    * @return translated "guava"
    */
   @DefaultStringValue("guava")
@@ -656,7 +656,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "hazelnut".
-   * 
+   *
    * @return translated "hazelnut"
    */
   @DefaultStringValue("hazelnut")
@@ -665,7 +665,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "honey".
-   * 
+   *
    * @return translated "honey"
    */
   @DefaultStringValue("honey")
@@ -674,7 +674,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "mulukhiyah".
-   * 
+   *
    * @return translated "mulukhiyah"
    */
   @DefaultStringValue("mulukhiyah")
@@ -683,7 +683,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "kelp".
-   * 
+   *
    * @return translated "kelp"
    */
   @DefaultStringValue("kelp")
@@ -692,7 +692,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "kiwi".
-   * 
+   *
    * @return translated "kiwi"
    */
   @DefaultStringValue("kiwi")
@@ -701,7 +701,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "lamb".
-   * 
+   *
    * @return translated "lamb"
    */
   @DefaultStringValue("lamb")
@@ -710,7 +710,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "lamb brain".
-   * 
+   *
    * @return translated "lamb brain"
    */
   @DefaultStringValue("lamb brain")
@@ -719,7 +719,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "lamb liver".
-   * 
+   *
    * @return translated "lamb liver"
    */
   @DefaultStringValue("lamb liver")
@@ -728,7 +728,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "lamb spleen".
-   * 
+   *
    * @return translated "lamb spleen"
    */
   @DefaultStringValue("lamb spleen")
@@ -737,7 +737,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "lamb tongue".
-   * 
+   *
    * @return translated "lamb tongue"
    */
   @DefaultStringValue("lamb tongue")
@@ -746,7 +746,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "nori".
-   * 
+   *
    * @return translated "nori"
    */
   @DefaultStringValue("nori")
@@ -755,7 +755,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "lemon juice".
-   * 
+   *
    * @return translated "lemon juice"
    */
   @DefaultStringValue("lemon juice")
@@ -764,7 +764,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "lentil".
-   * 
+   *
    * @return translated "lentil"
    */
   @DefaultStringValue("lentil")
@@ -773,7 +773,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "lettuce".
-   * 
+   *
    * @return translated "lettuce"
    */
   @DefaultStringValue("lettuce")
@@ -782,7 +782,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "mango".
-   * 
+   *
    * @return translated "mango"
    */
   @DefaultStringValue("mango")
@@ -791,7 +791,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "milk 1%".
-   * 
+   *
    * @return translated "milk 1%"
    */
   @DefaultStringValue("milk 1%")
@@ -800,7 +800,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "octopus".
-   * 
+   *
    * @return translated "octopus"
    */
   @DefaultStringValue("octopus")
@@ -809,7 +809,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "okra".
-   * 
+   *
    * @return translated "okra"
    */
   @DefaultStringValue("okra")
@@ -818,7 +818,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "olive".
-   * 
+   *
    * @return translated "olive"
    */
   @DefaultStringValue("olive")
@@ -827,7 +827,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "olive oil".
-   * 
+   *
    * @return translated "olive oil"
    */
   @DefaultStringValue("olive oil")
@@ -836,7 +836,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "red onion".
-   * 
+   *
    * @return translated "red onion"
    */
   @DefaultStringValue("red onion")
@@ -845,7 +845,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "green onion".
-   * 
+   *
    * @return translated "green onion"
    */
   @DefaultStringValue("green onion")
@@ -854,7 +854,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "orange".
-   * 
+   *
    * @return translated "orange"
    */
   @DefaultStringValue("orange")
@@ -863,7 +863,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "orange juice".
-   * 
+   *
    * @return translated "orange juice"
    */
   @DefaultStringValue("orange juice")
@@ -872,7 +872,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "oyster".
-   * 
+   *
    * @return translated "oyster"
    */
   @DefaultStringValue("oyster")
@@ -881,7 +881,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "parsley".
-   * 
+   *
    * @return translated "parsley"
    */
   @DefaultStringValue("parsley")
@@ -890,7 +890,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "passionfruit".
-   * 
+   *
    * @return translated "passionfruit"
    */
   @DefaultStringValue("passionfruit")
@@ -899,7 +899,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "peach".
-   * 
+   *
    * @return translated "peach"
    */
   @DefaultStringValue("peach")
@@ -908,7 +908,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "pear".
-   * 
+   *
    * @return translated "pear"
    */
   @DefaultStringValue("pear")
@@ -917,7 +917,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "sweet red pepper".
-   * 
+   *
    * @return translated "sweet red pepper"
    */
   @DefaultStringValue("sweet red pepper")
@@ -926,7 +926,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "sweet yellow pepper".
-   * 
+   *
    * @return translated "sweet yellow pepper"
    */
   @DefaultStringValue("sweet yellow pepper")
@@ -935,7 +935,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "japanese persimmon".
-   * 
+   *
    * @return translated "japanese persimmon"
    */
   @DefaultStringValue("japanese persimmon")
@@ -944,7 +944,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "pineapple".
-   * 
+   *
    * @return translated "pineapple"
    */
   @DefaultStringValue("pineapple")
@@ -953,7 +953,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "white pita bread".
-   * 
+   *
    * @return translated "white pita bread"
    */
   @DefaultStringValue("white pita bread")
@@ -962,7 +962,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "plum".
-   * 
+   *
    * @return translated "plum"
    */
   @DefaultStringValue("plum")
@@ -971,7 +971,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "dried plum".
-   * 
+   *
    * @return translated "dried plum"
    */
   @DefaultStringValue("dried plum")
@@ -980,7 +980,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "pomegranate".
-   * 
+   *
    * @return translated "pomegranate"
    */
   @DefaultStringValue("pomegranate")
@@ -989,7 +989,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "pomegranate juices".
-   * 
+   *
    * @return translated "pomegranate juices"
    */
   @DefaultStringValue("pomegranate juices")
@@ -998,7 +998,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "pork".
-   * 
+   *
    * @return translated "pork"
    */
   @DefaultStringValue("pork")
@@ -1007,7 +1007,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "pork feet".
-   * 
+   *
    * @return translated "pork feet"
    */
   @DefaultStringValue("pork feet")
@@ -1016,7 +1016,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "potato".
-   * 
+   *
    * @return translated "potato"
    */
   @DefaultStringValue("potato")
@@ -1025,7 +1025,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "prickly pear".
-   * 
+   *
    * @return translated "prickly pear"
    */
   @DefaultStringValue("prickly pear")
@@ -1034,7 +1034,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "pomelo".
-   * 
+   *
    * @return translated "pomelo"
    */
   @DefaultStringValue("pomelo")
@@ -1043,7 +1043,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "pumpkin".
-   * 
+   *
    * @return translated "pumpkin"
    */
   @DefaultStringValue("pumpkin")
@@ -1052,7 +1052,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "radish".
-   * 
+   *
    * @return translated "radish"
    */
   @DefaultStringValue("radish")
@@ -1061,7 +1061,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "raisin".
-   * 
+   *
    * @return translated "raisin"
    */
   @DefaultStringValue("raisin")
@@ -1070,7 +1070,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "rice".
-   * 
+   *
    * @return translated "rice"
    */
   @DefaultStringValue("rice")
@@ -1079,7 +1079,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "rock cake".
-   * 
+   *
    * @return translated "rock cake"
    */
   @DefaultStringValue("rock cake")
@@ -1088,7 +1088,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "salmon".
-   * 
+   *
    * @return translated "salmon"
    */
   @DefaultStringValue("salmon")
@@ -1097,7 +1097,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "shrimp".
-   * 
+   *
    * @return translated "shrimp"
    */
   @DefaultStringValue("shrimp")
@@ -1106,7 +1106,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "spearmint".
-   * 
+   *
    * @return translated "spearmint"
    */
   @DefaultStringValue("spearmint")
@@ -1115,7 +1115,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "spinach".
-   * 
+   *
    * @return translated "spinach"
    */
   @DefaultStringValue("spinach")
@@ -1124,7 +1124,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "mung bean sprouts".
-   * 
+   *
    * @return translated "mung bean sprouts"
    */
   @DefaultStringValue("mung bean sprouts")
@@ -1133,7 +1133,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "summer squash".
-   * 
+   *
    * @return translated "summer squash"
    */
   @DefaultStringValue("summer squash")
@@ -1142,7 +1142,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "squid".
-   * 
+   *
    * @return translated "squid"
    */
   @DefaultStringValue("squid")
@@ -1151,7 +1151,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "strawberries".
-   * 
+   *
    * @return translated "strawberries"
    */
   @DefaultStringValue("strawberries")
@@ -1160,7 +1160,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "sweet potato".
-   * 
+   *
    * @return translated "sweet potato"
    */
   @DefaultStringValue("sweet potato")
@@ -1169,7 +1169,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "mandarin".
-   * 
+   *
    * @return translated "mandarin"
    */
   @DefaultStringValue("mandarin")
@@ -1178,7 +1178,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "thyme".
-   * 
+   *
    * @return translated "thyme"
    */
   @DefaultStringValue("thyme")
@@ -1187,7 +1187,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "tomato".
-   * 
+   *
    * @return translated "tomato"
    */
   @DefaultStringValue("tomato")
@@ -1196,7 +1196,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "tuna canned".
-   * 
+   *
    * @return translated "tuna canned"
    */
   @DefaultStringValue("tuna canned")
@@ -1205,7 +1205,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "turkey".
-   * 
+   *
    * @return translated "turkey"
    */
   @DefaultStringValue("turkey")
@@ -1214,7 +1214,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "turmeric".
-   * 
+   *
    * @return translated "turmeric"
    */
   @DefaultStringValue("turmeric")
@@ -1223,7 +1223,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "turnip".
-   * 
+   *
    * @return translated "turnip"
    */
   @DefaultStringValue("turnip")
@@ -1232,7 +1232,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "wakame".
-   * 
+   *
    * @return translated "wakame"
    */
   @DefaultStringValue("wakame")
@@ -1241,7 +1241,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "walnut".
-   * 
+   *
    * @return translated "walnut"
    */
   @DefaultStringValue("walnut")
@@ -1250,7 +1250,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "watermelon".
-   * 
+   *
    * @return translated "watermelon"
    */
   @DefaultStringValue("watermelon")
@@ -1259,7 +1259,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "greek yogurt".
-   * 
+   *
    * @return translated "greek yogurt"
    */
   @DefaultStringValue("greek yogurt")
@@ -1268,7 +1268,7 @@ public interface FoodItemTypeConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "zucchini".
-   * 
+   *
    * @return translated "zucchini"
    */
   @DefaultStringValue("zucchini")

@@ -2,13 +2,13 @@ package com.nutrinfomics.geneway.shared.constants;
 
 /**
  * Interface to represent the constants contained in resource bundle:
- * 	'/home/firas/Documents/gene-way-workspace/gene-way-app/app/src/com/nutrinfomics/geneway/client/constants/MiscConstants.properties'.
+ * '/home/firas/Documents/gene-way-workspace/gene-way-app/app/src/com/nutrinfomics/geneway/client/constants/MiscConstants.properties'.
  */
 public interface MiscConstants extends com.google.gwt.i18n.client.Constants {
-  
+
   /**
    * Translated "".
-   * 
+   *
    * @return translated ""
    */
   @DefaultStringValue("")
@@ -17,7 +17,7 @@ public interface MiscConstants extends com.google.gwt.i18n.client.Constants {
 
   /**
    * Translated "energy".
-   * 
+   *
    * @return translated "energy"
    */
   @DefaultStringValue("energy")
@@ -26,7 +26,7 @@ public interface MiscConstants extends com.google.gwt.i18n.client.Constants {
 
   /**
    * Translated "rest".
-   * 
+   *
    * @return translated "rest"
    */
   @DefaultStringValue("rest")

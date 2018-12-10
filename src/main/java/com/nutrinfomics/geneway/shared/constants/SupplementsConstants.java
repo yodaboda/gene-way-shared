@@ -2,13 +2,13 @@ package com.nutrinfomics.geneway.shared.constants;
 
 /**
  * Interface to represent the constants contained in resource bundle:
- * 	'/home/firas/Documents/webapp/gene-way/src/com/nutrinfomics/geneway/client/plan/SupplementsConstants.properties'.
+ * '/home/firas/Documents/webapp/gene-way/src/com/nutrinfomics/geneway/client/plan/SupplementsConstants.properties'.
  */
 public interface SupplementsConstants extends com.google.gwt.i18n.client.Constants {
-  
+
   /**
    * Translated "Calcium".
-   * 
+   *
    * @return translated "Calcium"
    */
   @DefaultStringValue("Calcium")
@@ -17,7 +17,7 @@ public interface SupplementsConstants extends com.google.gwt.i18n.client.Constan
 
   /**
    * Translated "SupplementsConstants".
-   * 
+   *
    * @return translated "SupplementsConstants"
    */
   @DefaultStringValue("SupplementsConstants")
@@ -26,7 +26,7 @@ public interface SupplementsConstants extends com.google.gwt.i18n.client.Constan
 
   /**
    * Translated "multi vitamin".
-   * 
+   *
    * @return translated "multi vitamin"
    */
   @DefaultStringValue("multi vitamin")
@@ -35,7 +35,7 @@ public interface SupplementsConstants extends com.google.gwt.i18n.client.Constan
 
   /**
    * Translated "Supplements".
-   * 
+   *
    * @return translated "Supplements"
    */
   @DefaultStringValue("Supplements")
@@ -44,7 +44,7 @@ public interface SupplementsConstants extends com.google.gwt.i18n.client.Constan
 
   /**
    * Translated "Vitamin B12".
-   * 
+   *
    * @return translated "Vitamin B12"
    */
   @DefaultStringValue("Vitamin B12")
@@ -53,7 +53,7 @@ public interface SupplementsConstants extends com.google.gwt.i18n.client.Constan
 
   /**
    * Translated "Vitamin D".
-   * 
+   *
    * @return translated "Vitamin D"
    */
   @DefaultStringValue("Vitamin D")
@@ -62,7 +62,7 @@ public interface SupplementsConstants extends com.google.gwt.i18n.client.Constan
 
   /**
    * Translated "Zinc".
-   * 
+   *
    * @return translated "Zinc"
    */
   @DefaultStringValue("Zinc")

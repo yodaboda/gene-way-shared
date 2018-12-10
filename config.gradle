@@ -22,6 +22,7 @@ buildscript{
     	classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.6.2"
     	classpath "com.diffplug.spotless:spotless-plugin-gradle:3.16.0"
     	classpath 'com.netflix.nebula:gradle-lint-plugin:latest.release'
+    	classpath 'com.google.googlejavaformat:google-java-format:1.6'
   	}
 	tasks.withType(Test) {
         maxParallelForks = Runtime.runtime.availableProcessors().intdiv(2) ?: 1 
@@ -32,6 +33,29 @@ project.ext.version = 1
 
 apply plugin: org.sonarqube.gradle.SonarQubePlugin
 apply plugin: com.diffplug.gradle.spotless.SpotlessPlugin
+spotless {
+  java {
+  	googleJavaFormat('1.6')
+  	importOrder 'java', 'javax', 'org', 'com'
+  	removeUnusedImports()
+  //  licenseHeader '/* Licensed under Apache-2.0 */'	// License header
+  //  licenseHeaderFile 'spotless.license.java'		// License header file
+    // Obviously, you can't specify both licenseHeader and licenseHeaderFile at the same time
+
+ //   importOrder 'java', 'javax', 'org', 'com', 'com.diffplug', ''	// A sequence of package names
+  //  importOrderFile 'spotless.importorder'				// An import ordering file, exported from Eclipse
+    // As before, you can't specify both importOrder and importOrderFile at the same time
+    // You probably want an empty string at the end - all of the imports you didn't specify
+    // explicitly will go there.
+
+//    removeUnusedImports() // removes any unused imports
+
+ //   eclipse().configFile 'spotless.eclipseformat.xml'	// XML file dumped out by the Eclipse formatter
+    // If you have Eclipse preference or property files, you can use them too.
+    // eclipse('4.7.1') to specify a specific version of eclipse,
+    // available versions are: https://github.com/diffplug/spotless/tree/master/lib-extra/src/main/resources/com/diffplug/spotless/extra/config/eclipse_jdt_formatter
+  }
+}
 
 apply plugin: com.netflix.nebula.lint.plugin.GradleLintPlugin
 gradleLint {

@@ -2,13 +2,13 @@ package com.nutrinfomics.geneway.shared.constants;
 
 /**
  * Interface to represent the constants contained in resource bundle:
- * 	'/home/firas/Documents/webapp/gene-way/src/com/nutrinfomics/geneway/client/plan/MeasurementsConstants.properties'.
+ * '/home/firas/Documents/webapp/gene-way/src/com/nutrinfomics/geneway/client/plan/MeasurementsConstants.properties'.
  */
 public interface MeasurementsConstants extends com.google.gwt.i18n.client.ConstantsWithLookup {
-  
+
   /**
    * Translated "cup".
-   * 
+   *
    * @return translated "cup"
    */
   @DefaultStringValue("cup")
@@ -17,7 +17,7 @@ public interface MeasurementsConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "MeasurementsConstants".
-   * 
+   *
    * @return translated "MeasurementsConstants"
    */
   @DefaultStringValue("MeasurementsConstants")
@@ -26,7 +26,7 @@ public interface MeasurementsConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "gram".
-   * 
+   *
    * @return translated "gram"
    */
   @DefaultStringValue("gram")
@@ -35,7 +35,7 @@ public interface MeasurementsConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "kilocalories".
-   * 
+   *
    * @return translated "kilocalories"
    */
   @DefaultStringValue("kilocalories")
@@ -44,7 +44,7 @@ public interface MeasurementsConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "leaf".
-   * 
+   *
    * @return translated "leaf"
    */
   @DefaultStringValue("leaf")
@@ -53,7 +53,7 @@ public interface MeasurementsConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "microgram".
-   * 
+   *
    * @return translated "microgram"
    */
   @DefaultStringValue("microgram")
@@ -62,7 +62,7 @@ public interface MeasurementsConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "milligram".
-   * 
+   *
    * @return translated "milligram"
    */
   @DefaultStringValue("milligram")
@@ -71,7 +71,7 @@ public interface MeasurementsConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "sheet".
-   * 
+   *
    * @return translated "sheet"
    */
   @DefaultStringValue("sheet")
@@ -80,7 +80,7 @@ public interface MeasurementsConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "table spoon".
-   * 
+   *
    * @return translated "table spoon"
    */
   @DefaultStringValue("table spoon")
@@ -89,7 +89,7 @@ public interface MeasurementsConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "tea spoon".
-   * 
+   *
    * @return translated "tea spoon"
    */
   @DefaultStringValue("tea spoon")
@@ -98,7 +98,7 @@ public interface MeasurementsConstants extends com.google.gwt.i18n.client.Consta
 
   /**
    * Translated "".
-   * 
+   *
    * @return translated "units"
    */
   @DefaultStringValue("units")

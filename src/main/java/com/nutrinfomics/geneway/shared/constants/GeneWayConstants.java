@@ -1,306 +1,305 @@
 package com.nutrinfomics.geneway.shared.constants;
 
 import com.google.gwt.i18n.client.ConstantsWithLookup;
-import com.google.gwt.safehtml.shared.SafeHtml;
-import com.google.gwt.user.client.ui.Widget;
 
 public interface GeneWayConstants extends ConstantsWithLookup {
-	@DefaultStringValue("Login")
-	String login();
-	
-	@DefaultStringValue("Register")
-	String register();
-	
-	@DefaultStringValue("Password")
-	String password();
-	
-	@DefaultStringValue("Username")
-	String username();
-	
-	@DefaultStringValue("Private name")	
-	String privatename();
-	
-	@DefaultStringValue("Family name")
-	String familyname();
-	
-	@DefaultStringValue("Email")
-	String email();
-	
-	@DefaultStringValue("Phone number")
-	String phonenumber();
-	
-	@DefaultStringValue("Birth date")
-	String birthdate();
-	
-	@DefaultStringValue("Weight")
-	String weight();
-	
-	@DefaultStringValue("Height")
-	String height();
-	
-	@DefaultStringValue("Confirm your password")	
-	String repeatpassword();
-	
-	@DefaultStringValue("Gender")	
-	String gender();
-
-	@DefaultStringValue("Female")	
-	String female();
-	
-	@DefaultStringValue("Male")	
-	String male();
-
-	@DefaultStringValue("You have entered wrong credentials")
-	String invalidLogin();
-
-	@DefaultStringValue("Invalid login")
-	String invalidLoginTitle();
-
-	
-	@DefaultStringValue("User is not authorized to login from this device")	
-	String unauthorizedDevice();
-
-	@DefaultStringValue("Unauthorized Device")	
-	String unauthorizedDeviceTitle();
-
-	
-	@DefaultStringValue("Username taken. Please choose a different username")
-	String usernameExists();
-
-	@DefaultStringValue("Error")		
-	String error();
-
-	@DefaultStringValue("Registration was succesful. You will be redirected next to login page")			
-	String registrationSuccessful();
-
-	@DefaultStringValue("Next meal")
-	String nextMeal();
-
-	@DefaultStringValue("Meal taken")	
-	String mealTaken();
-
-	@DefaultStringValue("Meals")	
-	String meals();
-
-	@DefaultStringValue("Favorites")	
-	String favorites();
-
-	@DefaultStringValue("Ingredients")	
-	String ingredients();
-
-	@DefaultStringValue("Please take your snack - it is about time")	
-	String itsTimeToTakeYourMeal();
-
-	@DefaultStringValue("Snack time")	
-	String itsTimeToTakeYourMealTitle();
-	
-	
-	@DefaultStringValue("Existing Account")
-	String existingAccount();
-
-	@DefaultStringValue("Join Now")
-	String newAccount();
-	
-	@DefaultStringValue("Food Item")
-	String foodItem();
-
-	@DefaultStringValue("Reem")
-	String reem();
+  @DefaultStringValue("Login")
+  String login();
 
-	@DefaultStringValue("Lost 35 KG")
-	String lost35kg();
+  @DefaultStringValue("Register")
+  String register();
 
-	@DefaultStringValue("In 7 months")
-	String in7Months();
+  @DefaultStringValue("Password")
+  String password();
 
-	@DefaultStringValue("You?")
-	String youQM();
+  @DefaultStringValue("Username")
+  String username();
 
-	@DefaultStringValue("Time")
-	String timeInTimeForChange();
+  @DefaultStringValue("Private name")
+  String privatename();
 
-	@DefaultStringValue("for")
-	String forInTimeForChange();
+  @DefaultStringValue("Family name")
+  String familyname();
 
-	@DefaultStringValue("change")
-	String changeInTimeForChange();
+  @DefaultStringValue("Email")
+  String email();
 
-	@DefaultStringValue("Settings")
-	String settings();
+  @DefaultStringValue("Phone number")
+  String phonenumber();
 
-	@DefaultStringValue("Hours btw snacks")
-	String timeBetweenMeals();
+  @DefaultStringValue("Birth date")
+  String birthdate();
 
-	@DefaultStringValue("Send SMS alerts")
-	String smsSnackAlerts();
+  @DefaultStringValue("Weight")
+  String weight();
 
-	@DefaultStringValue("Snack order")
-	String snackOrder();
+  @DefaultStringValue("Height")
+  String height();
 
-	@DefaultStringValue("Language")
-	String language();
+  @DefaultStringValue("Confirm your password")
+  String repeatpassword();
 
-	@DefaultStringValue("automatic")
-	String auto();
+  @DefaultStringValue("Gender")
+  String gender();
 
-	@DefaultStringValue("Send email alerts")
-	String emailSnackAlerts();
+  @DefaultStringValue("Female")
+  String female();
 
-	@DefaultStringValue("Start here")
-	String startHere();
+  @DefaultStringValue("Male")
+  String male();
 
-	@DefaultStringValue("Start")
-	String start();
+  @DefaultStringValue("You have entered wrong credentials")
+  String invalidLogin();
 
-	@DefaultStringValue("Enter verification code")
-	String enterVerificationCode();
+  @DefaultStringValue("Invalid login")
+  String invalidLoginTitle();
 
-	@DefaultStringValue("Verify")
-	String verify();
+  @DefaultStringValue("User is not authorized to login from this device")
+  String unauthorizedDevice();
 
-	@DefaultStringValue("Verified")
-	String verified();
+  @DefaultStringValue("Unauthorized Device")
+  String unauthorizedDeviceTitle();
 
-	@DefaultStringValue("Thank you. Your phone has been verified")
-	String phoneVerified();
+  @DefaultStringValue("Username taken. Please choose a different username")
+  String usernameExists();
 
-	@DefaultStringValue("Code mismatch")
-	String wrongCodeTitle();
+  @DefaultStringValue("Error")
+  String error();
 
-	@DefaultStringValue("The code you have entered does not match. Please retry")
-	String wrongCodeMessage();
-	
-	@DefaultStringValue("Passwords do not match")
-	String passwordAndRepeatMismatchTitle();
+  @DefaultStringValue("Registration was succesful. You will be redirected next to login page")
+  String registrationSuccessful();
 
-	@DefaultStringValue("The two entered passwords do not match. Please make sure to enter the same password twice.")
-	String passwordAndRepeatMismatchText();
+  @DefaultStringValue("Next meal")
+  String nextMeal();
 
-	@DefaultStringValue("Code has expired")
-	String codeExpiredTitle();
+  @DefaultStringValue("Meal taken")
+  String mealTaken();
 
-	@DefaultStringValue("The code has expired. Please request a new code to validate your mobile number.")
-	String codeExpiredText();
+  @DefaultStringValue("Meals")
+  String meals();
 
-	@DefaultStringValue("Send a new code")
-	String resendCode();
+  @DefaultStringValue("Favorites")
+  String favorites();
 
-	@DefaultStringValue("I accept the Terms of Service and the Privacy Policy")
-	String acceptTerms();
+  @DefaultStringValue("Ingredients")
+  String ingredients();
 
-	@DefaultStringValue("The Terms of Service")
-	String termsOfService();
-	
-	@DefaultStringValue("Terms of Service")
-	String termsOfServiceTitle();
+  @DefaultStringValue("Please take your snack - it is about time")
+  String itsTimeToTakeYourMeal();
 
-	@DefaultStringValue("Hereby, I agree...")
-	String termsOfServiceText();
+  @DefaultStringValue("Snack time")
+  String itsTimeToTakeYourMealTitle();
 
-	@DefaultStringValue("the Privacy Policy")
-	String privacyPolicy();
+  @DefaultStringValue("Existing Account")
+  String existingAccount();
 
-	@DefaultStringValue(" and ")
-	String and();
+  @DefaultStringValue("Join Now")
+  String newAccount();
 
-	@DefaultStringValue("Privacy Policy")
-	String privacyPolicyTitle();
+  @DefaultStringValue("Food Item")
+  String foodItem();
 
-	@DefaultStringValue("Hereby, I agree...")
-	String privacyPolicyText();
+  @DefaultStringValue("Reem")
+  String reem();
 
-	@DefaultStringValue("Phone number format error")
-	String phoneNumberFormatErrorTitle();
+  @DefaultStringValue("Lost 35 KG")
+  String lost35kg();
 
-	@DefaultStringValue("The entered phone number is in the wrong format. Please correct it.")
-	String phoneNumberFormatErrorText();
+  @DefaultStringValue("In 7 months")
+  String in7Months();
 
-	@DefaultStringValue("Weak password")
-	String weakPasswordTitle();
+  @DefaultStringValue("You?")
+  String youQM();
 
-	@DefaultStringValue("The entered password is too short. Please enter a password of 6 characters or more")
-	String weakPasswordText();
+  @DefaultStringValue("Time")
+  String timeInTimeForChange();
 
-	@DefaultStringValue("Accept terms and policy")
-	String acceptTermsTitle();
+  @DefaultStringValue("for")
+  String forInTimeForChange();
 
-	@DefaultStringValue("Please accept the Terms of Service and the Privacy Policy.")
-	String acceptTermsText();
+  @DefaultStringValue("change")
+  String changeInTimeForChange();
 
-	@DefaultStringValue("Session expired")
-	String sessionExpiredTitle();
+  @DefaultStringValue("Settings")
+  String settings();
 
-	@DefaultStringValue("Next")
-	String next();
-	
-	@DefaultStringValue("Demo")
-	String demo();
+  @DefaultStringValue("Hours btw snacks")
+  String timeBetweenMeals();
 
-	@DefaultStringValue("Pseudonym")
-	String nickname();
-	
-	@DefaultStringValue("Constipation")
-	String constipation();
+  @DefaultStringValue("Send SMS alerts")
+  String smsSnackAlerts();
 
-	@DefaultStringValue("Measurements")
-	String measurements();
+  @DefaultStringValue("Snack order")
+  String snackOrder();
 
-	@DefaultStringValue("Community")
-	String community();
+  @DefaultStringValue("Language")
+  String language();
 
-	@DefaultStringValue("Off the track!")
-	String imbalanceTitle();
+  @DefaultStringValue("automatic")
+  String auto();
 
-	@DefaultStringValue("Your indicators are out of balace. Please reconsider following the recommendations more precisely")
-	String imbalanceText();
+  @DefaultStringValue("Send email alerts")
+  String emailSnackAlerts();
 
-	@DefaultStringValue("Good work!")
-	String goodWorkTitle();
+  @DefaultStringValue("Start here")
+  String startHere();
 
-	@DefaultStringValue("You have made a great progress! Keep up the good work")
-	String goodWorkText();
+  @DefaultStringValue("Start")
+  String start();
 
-	@DefaultStringValue("Diabetes")
-	String diabetes();
+  @DefaultStringValue("Enter verification code")
+  String enterVerificationCode();
 
-	@DefaultStringValue("Hairloss")
-	String hairloss();
+  @DefaultStringValue("Verify")
+  String verify();
 
-	@DefaultStringValue("Cholesterol")
-	String cholesterol();
+  @DefaultStringValue("Verified")
+  String verified();
 
-	@DefaultStringValue("Fatigue")
-	String fatigue();
+  @DefaultStringValue("Thank you. Your phone has been verified")
+  String phoneVerified();
 
-	@DefaultStringValue("Triglycerides")
-	String triglycerides();
+  @DefaultStringValue("Code mismatch")
+  String wrongCodeTitle();
 
-	@DefaultStringValue("Arthritis")
-	String arthritis();
+  @DefaultStringValue("The code you have entered does not match. Please retry")
+  String wrongCodeMessage();
 
-	@DefaultStringValue("Arthritis")
-	String dear();
-	
-	@DefaultStringValue("Welcome")
-	String welcome();
+  @DefaultStringValue("Passwords do not match")
+  String passwordAndRepeatMismatchTitle();
 
-	@DefaultStringValue("Your status is:")
-	String yourStatus();
+  @DefaultStringValue(
+      "The two entered passwords do not match. Please make sure to enter the same password twice.")
+  String passwordAndRepeatMismatchText();
 
-	@DefaultStringValue("Identifier")
-	String identifier();
+  @DefaultStringValue("Code has expired")
+  String codeExpiredTitle();
 
-	@DefaultStringValue("Unlock")
-	String unlock();
+  @DefaultStringValue(
+      "The code has expired. Please request a new code to validate your mobile number.")
+  String codeExpiredText();
 
-	@DefaultStringValue("Unlock failed")
-	String unlockingFailedTitle();
+  @DefaultStringValue("Send a new code")
+  String resendCode();
 
-	@DefaultStringValue("The unlocking operation has failed. Please retry or contact the admin.")
-	String unlockingFailedText();
+  @DefaultStringValue("I accept the Terms of Service and the Privacy Policy")
+  String acceptTerms();
 
-	@DefaultStringValue("<h1> Non-Disclosure Agreement </h1>")
-	String ndaTitle();
-	
-	String ndaText();
+  @DefaultStringValue("The Terms of Service")
+  String termsOfService();
+
+  @DefaultStringValue("Terms of Service")
+  String termsOfServiceTitle();
+
+  @DefaultStringValue("Hereby, I agree...")
+  String termsOfServiceText();
+
+  @DefaultStringValue("the Privacy Policy")
+  String privacyPolicy();
+
+  @DefaultStringValue(" and ")
+  String and();
+
+  @DefaultStringValue("Privacy Policy")
+  String privacyPolicyTitle();
+
+  @DefaultStringValue("Hereby, I agree...")
+  String privacyPolicyText();
+
+  @DefaultStringValue("Phone number format error")
+  String phoneNumberFormatErrorTitle();
+
+  @DefaultStringValue("The entered phone number is in the wrong format. Please correct it.")
+  String phoneNumberFormatErrorText();
+
+  @DefaultStringValue("Weak password")
+  String weakPasswordTitle();
+
+  @DefaultStringValue(
+      "The entered password is too short. Please enter a password of 6 characters or more")
+  String weakPasswordText();
+
+  @DefaultStringValue("Accept terms and policy")
+  String acceptTermsTitle();
+
+  @DefaultStringValue("Please accept the Terms of Service and the Privacy Policy.")
+  String acceptTermsText();
+
+  @DefaultStringValue("Session expired")
+  String sessionExpiredTitle();
+
+  @DefaultStringValue("Next")
+  String next();
+
+  @DefaultStringValue("Demo")
+  String demo();
+
+  @DefaultStringValue("Pseudonym")
+  String nickname();
+
+  @DefaultStringValue("Constipation")
+  String constipation();
+
+  @DefaultStringValue("Measurements")
+  String measurements();
+
+  @DefaultStringValue("Community")
+  String community();
+
+  @DefaultStringValue("Off the track!")
+  String imbalanceTitle();
+
+  @DefaultStringValue(
+      "Your indicators are out of balace. Please reconsider following the recommendations more precisely")
+  String imbalanceText();
+
+  @DefaultStringValue("Good work!")
+  String goodWorkTitle();
+
+  @DefaultStringValue("You have made a great progress! Keep up the good work")
+  String goodWorkText();
+
+  @DefaultStringValue("Diabetes")
+  String diabetes();
+
+  @DefaultStringValue("Hairloss")
+  String hairloss();
+
+  @DefaultStringValue("Cholesterol")
+  String cholesterol();
+
+  @DefaultStringValue("Fatigue")
+  String fatigue();
+
+  @DefaultStringValue("Triglycerides")
+  String triglycerides();
+
+  @DefaultStringValue("Arthritis")
+  String arthritis();
+
+  @DefaultStringValue("Arthritis")
+  String dear();
+
+  @DefaultStringValue("Welcome")
+  String welcome();
+
+  @DefaultStringValue("Your status is:")
+  String yourStatus();
+
+  @DefaultStringValue("Identifier")
+  String identifier();
+
+  @DefaultStringValue("Unlock")
+  String unlock();
+
+  @DefaultStringValue("Unlock failed")
+  String unlockingFailedTitle();
+
+  @DefaultStringValue("The unlocking operation has failed. Please retry or contact the admin.")
+  String unlockingFailedText();
+
+  @DefaultStringValue("<h1> Non-Disclosure Agreement </h1>")
+  String ndaTitle();
+
+  String ndaText();
 }
