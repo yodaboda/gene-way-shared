@@ -5,8 +5,12 @@ import static org.junit.Assert.*;
 import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 import org.junit.rules.ExpectedException;
 
+import com.nutrinfomics.geneway.shared.testcategory.FastTest;
+
+@Category(value = {FastTest.class})
 public class MeasurementUnitTest {
 
   @Rule public ExpectedException thrown = ExpectedException.none();
