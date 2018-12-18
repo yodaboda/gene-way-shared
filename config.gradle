@@ -1,4 +1,6 @@
 allprojects {
+	apply plugin: 'eclipse'
+	
     repositories {
 		mavenLocal()
         mavenCentral()   
@@ -7,6 +9,15 @@ allprojects {
         	dirs System.properties['user.home'] + '/Documents/gene-way-workspace/gene-way-app/extraDependencies/langdetect/lib'
        	}
     }
+
+
+	eclipse {
+		classpath {
+		    downloadJavadoc = true
+        	downloadSources = true
+		}
+	}
+    
 }
 
 buildscript{
@@ -21,7 +32,7 @@ buildscript{
 	dependencies {
     	classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.6.2"
     	classpath "com.diffplug.spotless:spotless-plugin-gradle:3.16.0"
-    	classpath 'com.netflix.nebula:gradle-lint-plugin:latest.release'
+    	classpath 'com.netflix.nebula:gradle-lint-plugin:10.4.0'
     	classpath 'com.google.googlejavaformat:google-java-format:1.6'
   	}
 	tasks.withType(Test) {
@@ -38,6 +49,7 @@ spotless {
   	googleJavaFormat('1.6')
   	importOrder 'java', 'javax', 'org', 'com'
   	removeUnusedImports()
+  	paddedCell()
   //  licenseHeader '/* Licensed under Apache-2.0 */'	// License header
   //  licenseHeaderFile 'spotless.license.java'		// License header file
     // Obviously, you can't specify both licenseHeader and licenseHeaderFile at the same time
@@ -59,17 +71,11 @@ spotless {
 
 apply plugin: com.netflix.nebula.lint.plugin.GradleLintPlugin
 gradleLint {
-      rules = ['deprecated-dependency-configuration'] 
+		//Consider adding 'unused-dependency' once it starts supporting 'deprecated-dependency-configuration'
+      rules = ['deprecated-dependency-configuration', 'dependency-parentheses','dependency-tuple'] 
       criticalRules = []
 }
 
-apply plugin: 'eclipse'
-eclipse {
-    classpath {
-        downloadJavadoc = true
-        downloadSources = true
-    }
-}
 
 task sourcesJar(type: Jar, dependsOn: classes) {
     classifier = 'sources'
