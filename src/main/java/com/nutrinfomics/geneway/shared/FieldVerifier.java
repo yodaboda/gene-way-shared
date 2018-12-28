@@ -9,7 +9,7 @@ public class FieldVerifier {
    * @param name the name to validate
    * @return true if name length is greater than 3 characters
    */
-  public static boolean isValidName(String name) {
+  public boolean isValidName(String name) {
     if (name == null) {
       return false;
     }

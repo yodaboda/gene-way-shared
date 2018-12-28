@@ -1,32 +1,35 @@
 package com.nutrinfomics.geneway.shared;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 import com.nutrinfomics.geneway.shared.testcategory.FastTest;
 
-@Category(value = {FastTest.class})
+@Category(value = { FastTest.class })
 public class FieldVerifierTest {
 
-  @Test
-  public void testIsValidNameTrue() {
-    assertTrue(FieldVerifier.isValidName("abcd"));
-  }
+	private FieldVerifier fieldVerifier = new FieldVerifier();
 
-  @Test
-  public void testIsValidNameFalse() {
-    assertFalse(FieldVerifier.isValidName("ef"));
-  }
+	@Test
+	public void testIsValidNameTrue() {
+		assertTrue(fieldVerifier.isValidName("abcd"));
+	}
 
-  @Test
-  public void testIsValidNameFalseNULL() {
-    assertFalse(FieldVerifier.isValidName(null));
-  }
+	@Test
+	public void testIsValidNameFalse() {
+		assertFalse(fieldVerifier.isValidName("ef"));
+	}
 
-  @Test
-  public void testIsValidNameFalseEmpty() {
-    assertFalse(FieldVerifier.isValidName(""));
-  }
+	@Test
+	public void testIsValidNameFalseNULL() {
+		assertFalse(fieldVerifier.isValidName(null));
+	}
+
+	@Test
+	public void testIsValidNameFalseEmpty() {
+		assertFalse(fieldVerifier.isValidName(""));
+	}
 }
