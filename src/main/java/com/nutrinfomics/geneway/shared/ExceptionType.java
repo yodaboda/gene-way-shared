@@ -1,5 +1,7 @@
 package com.nutrinfomics.geneway.shared;
 
-public interface ExceptionType {
+import java.io.Serializable;
+
+public interface ExceptionType extends Serializable{
   public String toString();
 }
