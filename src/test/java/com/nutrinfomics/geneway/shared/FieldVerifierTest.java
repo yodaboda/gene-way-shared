@@ -8,28 +8,28 @@ import org.junit.experimental.categories.Category;
 
 import com.nutrinfomics.geneway.shared.testcategory.FastTest;
 
-@Category(value = { FastTest.class })
+@Category(value = {FastTest.class})
 public class FieldVerifierTest {
 
-	private FieldVerifier fieldVerifier = new FieldVerifier();
+  private FieldVerifier fieldVerifier = new FieldVerifier();
 
-	@Test
-	public void testIsValidNameTrue() {
-		assertTrue(fieldVerifier.isValidName("abcd"));
-	}
+  @Test
+  public void testIsValidNameTrue() {
+    assertTrue(fieldVerifier.isValidName("abcd"));
+  }
 
-	@Test
-	public void testIsValidNameFalse() {
-		assertFalse(fieldVerifier.isValidName("ef"));
-	}
+  @Test
+  public void testIsValidNameFalse() {
+    assertFalse(fieldVerifier.isValidName("ef"));
+  }
 
-	@Test
-	public void testIsValidNameFalseNULL() {
-		assertFalse(fieldVerifier.isValidName(null));
-	}
+  @Test
+  public void testIsValidNameFalseNULL() {
+    assertFalse(fieldVerifier.isValidName(null));
+  }
 
-	@Test
-	public void testIsValidNameFalseEmpty() {
-		assertFalse(fieldVerifier.isValidName(""));
-	}
+  @Test
+  public void testIsValidNameFalseEmpty() {
+    assertFalse(fieldVerifier.isValidName(""));
+  }
 }

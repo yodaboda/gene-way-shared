@@ -17,5 +17,4 @@ public class ActionException extends Exception implements Serializable {
   public ExceptionType getType() {
     return exceptionType;
   }
-
 }

@@ -49,7 +49,7 @@ spotless {
   	googleJavaFormat('1.6')
   	importOrder 'java', 'javax', 'org', 'com'
   	removeUnusedImports()
-  	paddedCell()
+//  	paddedCell() //causes spotless check to stop working...
   //  licenseHeader '/* Licensed under Apache-2.0 */'	// License header
   //  licenseHeaderFile 'spotless.license.java'		// License header file
     // Obviously, you can't specify both licenseHeader and licenseHeaderFile at the same time
