@@ -24,10 +24,4 @@ dependencies {
 
 
 
-test {
-    useJUnit {
-        includeCategories 'com.nutrinfomics.geneway.shared.testcategory.FastTest'
-        excludeCategories 'com.nutrinfomics.geneway.shared.testcategory.SlowTest'
-    }
-}
 
