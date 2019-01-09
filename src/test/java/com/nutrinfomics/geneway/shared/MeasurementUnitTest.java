@@ -21,15 +21,7 @@ package com.nutrinfomics.geneway.shared;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.logging.Handler;
-import java.util.logging.Level;
-import java.util.logging.LogRecord;
-import java.util.logging.Logger;
-
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Rule;
 import org.junit.Test;
@@ -45,44 +37,44 @@ public class MeasurementUnitTest {
 
   @Rule public ExpectedException thrown = ExpectedException.none();
 
-  private Logger LOGGER = Logger.getLogger(MeasurementUnit.class.getName());
+//  private Logger LOGGER = Logger.getLogger(MeasurementUnit.class.getName());
 
-  public class LogHandler extends Handler {
-    private List<LogRecord> logRecords = new ArrayList<>();
+//  public class LogHandler extends Handler {
+//    private List<LogRecord> logRecords = new ArrayList<>();
+//
+//    @Override
+//    public void publish(LogRecord record) {
+//      logRecords.add(record);
+//    }
+//
+//    @Override
+//    public void flush() {}
+//
+//    @Override
+//    public void close() throws SecurityException {}
+//
+//    public List<LogRecord> getLogRecords() {
+//      return logRecords;
+//    }
+//  }
 
-    @Override
-    public void publish(LogRecord record) {
-      logRecords.add(record);
-    }
+//  private LogHandler logHandler = new LogHandler();
 
-    @Override
-    public void flush() {}
-
-    @Override
-    public void close() throws SecurityException {}
-
-    public List<LogRecord> getLogRecords() {
-      return logRecords;
-    }
-  }
-
-  private LogHandler logHandler = new LogHandler();
-
-  @Before
-  public void setUp() {
-    LOGGER.addHandler(logHandler);
-  }
+//  @Before
+//  public void setUp() {
+//    LOGGER.addHandler(logHandler);
+//  }
 
   @Test
   public void testParseString() {
     assertEquals(MeasurementUnit.CUP, MeasurementUnit.parse(MeasurementUnit.CUP.toString()));
-    assertEquals(0, logHandler.getLogRecords().size());
+//    assertEquals(0, logHandler.getLogRecords().size());
   }
 
   @Test
   public void testParseStringG() {
     assertEquals(MeasurementUnit.GRAM, MeasurementUnit.parse("g"));
-    assertEquals(0, logHandler.getLogRecords().size());
+//    assertEquals(0, logHandler.getLogRecords().size());
   }
 
   @Test
@@ -93,15 +85,15 @@ public class MeasurementUnitTest {
     } catch (IllegalArgumentException ex) {
       assertEquals(
           "No enum constant com.nutrinfomics.geneway.shared.MeasurementUnit.A", ex.getMessage());
-      assertEquals(1, logHandler.getLogRecords().size());
-      assertEquals(Level.SEVERE, logHandler.getLogRecords().get(0).getLevel());
+//      assertEquals(1, logHandler.getLogRecords().size());
+//      assertEquals(Level.SEVERE, logHandler.getLogRecords().get(0).getLevel());
     }
   }
 
   @Test
   public void testParseStringTrim() {
     assertEquals(MeasurementUnit.MICROGRAM, MeasurementUnit.parse("�g "));
-    assertEquals(0, logHandler.getLogRecords().size());
+//    assertEquals(0, logHandler.getLogRecords().size());
   }
 
   @Test
@@ -112,7 +104,7 @@ public class MeasurementUnitTest {
     Assert.assertArrayEquals(
         new MeasurementUnit[] {MeasurementUnit.KCAL, MeasurementUnit.MICROGRAM},
         actualMeasurementUnits);
-    assertEquals(0, logHandler.getLogRecords().size());
+//    assertEquals(0, logHandler.getLogRecords().size());
   }
 
   @Test
@@ -126,8 +118,8 @@ public class MeasurementUnitTest {
     } catch (IllegalArgumentException ex) {
       assertEquals(
           "No enum constant com.nutrinfomics.geneway.shared.MeasurementUnit.B", ex.getMessage());
-      assertEquals(1, logHandler.getLogRecords().size());
-      assertEquals(Level.SEVERE, logHandler.getLogRecords().get(0).getLevel());
+//      assertEquals(1, logHandler.getLogRecords().size());
+//      assertEquals(Level.SEVERE, logHandler.getLogRecords().get(0).getLevel());
     }
   }
 
@@ -137,7 +129,7 @@ public class MeasurementUnitTest {
     int from = 1;
     MeasurementUnit[] actualMeasurementUnits = MeasurementUnit.parse(nutrientUnits, from);
     assertEquals(0, actualMeasurementUnits.length);
-    assertEquals(0, logHandler.getLogRecords().size());
+//    assertEquals(0, logHandler.getLogRecords().size());
   }
 
   @Test
@@ -146,6 +138,6 @@ public class MeasurementUnitTest {
     int from = 3;
     MeasurementUnit[] actualMeasurementUnits = MeasurementUnit.parse(nutrientUnits, from);
     assertEquals(0, actualMeasurementUnits.length);
-    assertEquals(0, logHandler.getLogRecords().size());
+//    assertEquals(0, logHandler.getLogRecords().size());
   }
 }

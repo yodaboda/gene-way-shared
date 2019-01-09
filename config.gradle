@@ -66,7 +66,7 @@ apply plugin: org.sonarqube.gradle.SonarQubePlugin
 apply plugin: com.diffplug.gradle.spotless.SpotlessPlugin
 spotless {
   java {
-  	googleJavaFormat('1.6')
+//  	googleJavaFormat('1.6')
   	importOrder 'java', 'javax', 'org', 'com'
   	removeUnusedImports()
 //	paddedCell()  //causes spotless check to stop working...
