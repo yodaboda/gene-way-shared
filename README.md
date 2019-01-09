@@ -1,18 +1,12 @@
 Gene-Way Shared Module
 ======
-**Gene-Way** is an MVP Server-Client project that provides a mobile front for interacting with a server-backend 
-for providing nutrinet recommendations.
+**Gene-Way** is an MVP project for providing nutrient recommendations. It uses a Server-Client architecture for providing an interactive mobile front-end that can communicate with a backend-server.
 
-**Gene-Way-Shared** is a shared module used by both the server and the client to facilitate the communication between them.
-
-## Gene-Way Shared
-* [Version X.Y](https://github.com/username/sw-name/archive/master.zip)
-* Other Versions
-
-## Usage
+## Gene-Way-Shared 
+Is a shared module used by both the server and the client to facilitate the communication between them.
 
 ## Contributors
-The code has been writen by Firas Swidan, PhD
+The code has been writen by Firas Swidan, PhD.
 
 ## License
 The code of the Gene-Way-Shared project is distributed under the Apache 2 License.
