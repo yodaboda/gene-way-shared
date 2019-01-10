@@ -36,13 +36,13 @@ steps:
 - task: PublishCodeCoverageResults@1
   inputs:
     codeCoverageTool: 'JaCoCo' 
-    summaryFileLocation: '$(System.DefaultWorkingDirectory)/**/reports/code-cov-report.xml'
-    reportDirectory: '$(System.DefaultWorkingDirectory)/**/reports/code-cov-report.html'
+    summaryFileLocation: '$(System.DefaultWorkingDirectory)/**/reports/jacoco/test/jacocoTestReport.xml'
+    reportDirectory: '$(System.DefaultWorkingDirectory)/**/reports/jacoco/test/html'
     failIfCoverageEmpty: true
     
 - task: CopyFiles@2
   inputs:
-    contents: '**/helloworld*.jar'
+    contents: '**/gene-way-shared*.jar'
     targetFolder: '$(build.artifactStagingDirectory)'
 
 - task: PublishBuildArtifacts@1
