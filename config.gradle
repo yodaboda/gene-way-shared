@@ -16,7 +16,7 @@
 
 allprojects {
 	apply plugin: 'eclipse'
-	//apply plugin: 'jacoco'
+	apply plugin: 'jacoco'
 	
     repositories {
 		mavenLocal()
@@ -93,13 +93,16 @@ apply plugin: com.netflix.nebula.lint.plugin.GradleLintPlugin
 //      criticalRules = []
 //}
 
-//jacocoTestReport {
-//    reports {
-//        xml.enabled false
-//        csv.enabled false
-//        html.destination file("${buildDir}/jacocoHtml")
-//    }
-//}
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        xml.destination "${buildDir}/reports/code-cov-report.xml"
+        html.enabled true
+        html.destination "${buildDir}/reports/code-cov-report.html"
+    }
+}
+
+check.dependsOn jacocoTestReport
 
 task sourcesJar(type: Jar, dependsOn: classes) {
     classifier = 'sources'
