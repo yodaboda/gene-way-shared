@@ -16,7 +16,7 @@
 
 allprojects {
 	apply plugin: 'eclipse'
-//	apply plugin: 'jacoco'
+	apply plugin: 'jacoco'
 	
     repositories {
 		mavenLocal()
