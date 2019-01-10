@@ -59,6 +59,10 @@ buildscript{
 
 project.ext.version = 1
 
+jacoco{
+	toolVersion = "0.8.2"
+}
+
 apply plugin: org.sonarqube.gradle.SonarQubePlugin
 apply plugin: com.diffplug.gradle.spotless.SpotlessPlugin
 spotless {
