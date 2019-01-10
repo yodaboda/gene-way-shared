@@ -98,14 +98,14 @@ apply plugin: com.netflix.nebula.lint.plugin.GradleLintPlugin
 //      criticalRules = []
 //}
 
-//jacocoTestReport {
-//    reports {
-//        xml.enabled true
+jacocoTestReport {
+    reports {
+        xml.enabled true
 //        xml.destination "${buildDir}/reports/coverage/code-cov-report.xml"
-//        html.enabled true
+        html.enabled true
 //        html.destination "${buildDir}/reports/coverage/code-cov-report.html"
-//    }
-//}
+    }
+}
 
 //check.dependsOn jacocoTestReport
 
