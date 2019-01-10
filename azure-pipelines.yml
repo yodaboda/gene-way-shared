@@ -29,9 +29,26 @@ steps:
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.11'
     jdkArchitectureOption: 'x64'
-    publishJUnitResults: false
+    publishJUnitResults: true
     testResultsFiles: '**/TEST-*.xml'
     tasks: 'build'
+
+- task: PublishCodeCoverageResults@1
+  inputs:
+    codeCoverageTool: 'JaCoCo' 
+    summaryFileLocation: '$(System.DefaultWorkingDirectory)/**/reports/code-cov-report.xml'
+    reportDirectory: '$(System.DefaultWorkingDirectory)/**/reports/code-cov-report.html'
+    failIfCoverageEmpty: true
+    
+- task: CopyFiles@2
+  inputs:
+    contents: '**/helloworld*.jar'
+    targetFolder: '$(build.artifactStagingDirectory)'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    artifactName: 'jars'
+    pathToPublish: '$(build.artifactStagingDirectory)'
 
 #-------------------------------------------------------------------------------
 # ^Dr Firas Swidan, PhD. frsswdn@gmail.com. firas.swidna@icloud.com.
