@@ -16,7 +16,7 @@
 
 allprojects {
 	apply plugin: 'eclipse'
-	apply plugin: 'jacoco'
+//	apply plugin: 'jacoco'
 	
     repositories {
 		mavenLocal()
@@ -59,9 +59,10 @@ buildscript{
 
 project.ext.version = 1
 
-jacoco{
-	toolVersion = "0.8.2"
-}
+//jacoco{
+//	toolVersion = "0.8.2"
+//	reportsDir = file("$buildDir/reports/jacoco")
+//}
 
 apply plugin: org.sonarqube.gradle.SonarQubePlugin
 apply plugin: com.diffplug.gradle.spotless.SpotlessPlugin
@@ -97,16 +98,16 @@ apply plugin: com.netflix.nebula.lint.plugin.GradleLintPlugin
 //      criticalRules = []
 //}
 
-jacocoTestReport {
-    reports {
-        xml.enabled true
-        xml.destination "${buildDir}/reports/code-cov-report.xml"
-        html.enabled true
-        html.destination "${buildDir}/reports/code-cov-report.html"
-    }
-}
+//jacocoTestReport {
+//    reports {
+//        xml.enabled true
+//        xml.destination "${buildDir}/reports/coverage/code-cov-report.xml"
+//        html.enabled true
+//        html.destination "${buildDir}/reports/coverage/code-cov-report.html"
+//    }
+//}
 
-check.dependsOn jacocoTestReport
+//check.dependsOn jacocoTestReport
 
 task sourcesJar(type: Jar, dependsOn: classes) {
     classifier = 'sources'
