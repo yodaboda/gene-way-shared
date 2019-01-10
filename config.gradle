@@ -101,13 +101,13 @@ apply plugin: com.netflix.nebula.lint.plugin.GradleLintPlugin
 jacocoTestReport {
     reports {
         xml.enabled true
-//        xml.destination "${buildDir}/reports/coverage/code-cov-report.xml"
+        xml.destination file("${buildDir}/reports/coverage/code-cov-report.xml")
         html.enabled true
-//        html.destination "${buildDir}/reports/coverage/code-cov-report.html"
+        html.destination file("${buildDir}/reports/coverage/code-cov-report.html")
     }
 }
 
-//check.dependsOn jacocoTestReport
+check.dependsOn jacocoTestReport
 
 task sourcesJar(type: Jar, dependsOn: classes) {
     classifier = 'sources'
