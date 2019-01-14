@@ -17,6 +17,9 @@
 allprojects {
 	apply plugin: 'eclipse'
 	apply plugin: 'jacoco'
+	apply plugin: 'maven'
+	apply plugin: 'signing'
+	
 	
     repositories {
 		mavenLocal()
@@ -58,6 +61,8 @@ buildscript{
 }
 
 project.ext.version = 1
+
+
 
 jacoco{
 	toolVersion = "0.8.2"
@@ -135,6 +140,73 @@ artifacts {
     archives sourcesJar
     archives javadocJar
 }
+
+group = "com.gene-play.shared"
+archivesBaseName = "gene-play-shared"
+version = "0.4.7"
+
+signing {
+    sign configurations.archives
+}
+
+allprojects{
+	ext."signing.keyId" = 'A773115B'
+	ext."signing.password" = '`EY6J#_Zq`]>"/5@+v`e)`gL'
+	ext."signing.secretKeyRingFile" = '/Users/firas1/.gnupg/secring.gpg'
+	
+	ext."ossrhUsername" = 'Gene-Way'
+	ext."ossrhPassword" = 'BsD*?m;-}8p?dy8_L,k(z(o#'
+	
+	ext."systemProp.sonar.host.url"='http://localhost:9000'
+	//#----- Token generated from an account with 'publish analysis' permission
+	ext."systemProp.sonar.login"='bb44a9528dbc194f4f2feef28b967c57c9994a9c'
+}
+
+uploadArchives {
+  repositories {
+    mavenDeployer {
+      beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }
+
+      repository(url: "https://oss.sonatype.org/service/local/staging/deploy/maven2/") {
+        authentication(userName: ossrhUsername, password: ossrhPassword)
+      }
+
+      snapshotRepository(url: "https://oss.sonatype.org/content/repositories/snapshots/") {
+        authentication(userName: ossrhUsername, password: ossrhPassword)
+      }
+
+      pom.project {
+        name 'Gene-Way-Shared'
+        packaging 'jar'
+        // optionally artifactId can be defined here 
+        description 'A shared module used by both the server and the client to facilitate the communication between them'
+        url 'https://github.com/yodaboda/gene-way-shared'
+
+        scm {
+          connection 'scm:git:git://github.com/yodaboda/gene-way-shared.git'
+          developerConnection 'scm:git:ssh://github.com:yodaboda/gene-way-shared.git'
+          url 'http://github.com/yodaboda/gene-way-shared/tree/master'
+        }
+
+        licenses {
+          license {
+            name 'The Apache Software License, Version 2.0'
+            url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+          }
+        }
+
+        developers {
+          developer {
+            name 'Firas Swidan'
+            email 'frsswdn@gmail.com'
+          }
+        }
+      }
+    }
+  }
+}
+
+
 
 configurations.all {
   resolutionStrategy {
