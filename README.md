@@ -8,7 +8,7 @@ Gene-Way Shared Module
 Is a shared module used by both the server and the client to facilitate the communication between them.
 
 ## Contributors
-The code has been writen by Firas Swidan, PhD.
+The code has been written by Firas Swidan, PhD.
 
 ## License
 The code of the Gene-Way-Shared project is distributed under the Apache 2 License.
