@@ -145,9 +145,10 @@ group = "com.gene-play.shared"
 archivesBaseName = "gene-play-shared"
 version = "0.4.7"
 
-signing {
-    sign configurations.archives
-}
+//TODO: Re-enable signing
+//signing {
+//    sign configurations.archives
+//}
 
 allprojects{
 	//Uploading keys to keyserver is covered in:
@@ -162,6 +163,7 @@ allprojects{
 	ext."systemProp.sonar.host.url"='http://localhost:9000'
 	//#----- Token generated from an account with 'publish analysis' permission
 	ext."systemProp.sonar.login"='bb44a9528dbc194f4f2feef28b967c57c9994a9c'
+	
 }
 
 uploadArchives {
