@@ -150,6 +150,8 @@ signing {
 }
 
 allprojects{
+	//Uploading keys to keyserver is covered in:
+	//https://stackoverflow.com/questions/19462617/no-public-key-key-with-id-xxxxx-was-not-able-to-be-located-oss-sonatype-org
 	ext."signing.keyId" = 'A773115B'
 	ext."signing.password" = '`EY6J#_Zq`]>"/5@+v`e)`gL'
 	ext."signing.secretKeyRingFile" = '/Users/firas1/.gnupg/secring.gpg'
