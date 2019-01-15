@@ -34,8 +34,8 @@ jar {
     }
 }
 
-group = "com.gene-play.shared"
-archivesBaseName = "gene-play-shared"
+group = "com.gene-play"
+archivesBaseName = "shared"
 version = "0.4.7"
 
 dependencies {
