@@ -25,6 +25,7 @@ allprojects {
 		mavenLocal()
         mavenCentral()   
         maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }	
+        maven {url "https://oss.sonatype.org/content/repositories/comgene-play-1000/"}
         flatDir {
         	dirs System.properties['user.home'] + '/Documents/gene-way-workspace/gene-way-app/extraDependencies/langdetect/lib'
        	}
@@ -44,7 +45,8 @@ buildscript{
 	repositories{
 		mavenLocal()
         mavenCentral()   
-        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }	
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+        maven {url "https://oss.sonatype.org/content/repositories/comgene-play-1000/"}	
         flatDir {
         	dirs System.properties['user.home'] + '/Documents/gene-way-workspace/gene-way-app/extraDependencies/langdetect/lib'
        	}	
