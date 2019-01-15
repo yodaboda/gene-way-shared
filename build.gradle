@@ -34,6 +34,10 @@ jar {
     }
 }
 
+group = "com.gene-play.shared"
+archivesBaseName = "gene-play-shared"
+version = "0.4.7"
+
 dependencies {
 	implementation 'com.google.gwt:gwt-servlet:2.7.0'
 	testImplementation "junit:junit:4.12"

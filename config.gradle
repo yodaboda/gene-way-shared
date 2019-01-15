@@ -141,9 +141,7 @@ artifacts {
     archives javadocJar
 }
 
-group = "com.gene-play.shared"
-archivesBaseName = "gene-play-shared"
-version = "0.4.7"
+
 
 //TODO: Re-enable signing
 //signing {
