@@ -43,7 +43,49 @@ dependencies {
 	testImplementation "junit:junit:4.12"
 }
 
+uploadArchives {
+  repositories {
+    mavenDeployer {
+      beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }
 
+      repository(url: "https://oss.sonatype.org/service/local/staging/deploy/maven2/") {
+        authentication(userName: ossrhUsername, password: ossrhPassword)
+      }
+
+      snapshotRepository(url: "https://oss.sonatype.org/content/repositories/snapshots/") {
+        authentication(userName: ossrhUsername, password: ossrhPassword)
+      }
+
+      pom.project {
+        name 'Gene-Way-Shared'
+        packaging 'jar'
+        // optionally artifactId can be defined here 
+        description 'A shared module used by both the server and the client to facilitate the communication between them'
+        url 'https://github.com/yodaboda/gene-way-shared'
+
+        scm {
+          connection 'scm:git:git://github.com/yodaboda/gene-way-shared.git'
+          developerConnection 'scm:git:ssh://github.com:yodaboda/gene-way-shared.git'
+          url 'http://github.com/yodaboda/gene-way-shared/tree/master'
+        }
+
+        licenses {
+          license {
+            name 'The Apache Software License, Version 2.0'
+            url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+          }
+        }
+
+        developers {
+          developer {
+            name 'Firas Swidan'
+            email 'frsswdn@gmail.com'
+          }
+        }
+      }
+    }
+  }
+}
 
 
 /*******************************************************************************
