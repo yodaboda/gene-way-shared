@@ -142,6 +142,13 @@ artifacts {
     archives javadocJar
 }
 
+ext {
+    ver = [
+        hibernate: '5.4.0.Final',
+        hibernateValidator: '4.1.0.Final', //GWT supports only this version
+        guice: '4.2.2'
+    ]
+}
 
 
 //TODO: Re-enable signing
