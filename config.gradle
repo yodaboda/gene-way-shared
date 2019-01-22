@@ -97,11 +97,11 @@ spotless {
 }
 
 apply plugin: com.netflix.nebula.lint.plugin.GradleLintPlugin
-//gradleLint {
+gradleLint {
 		//Consider adding 'unused-dependency' once it starts supporting 'deprecated-dependency-configuration'
-//      rules = ['deprecated-dependency-configuration', 'dependency-parentheses','dependency-tuple'] 
-//      criticalRules = []
-//}
+      rules = ['deprecated-dependency-configuration', 'dependency-parentheses','dependency-tuple'] 
+      criticalRules = []
+}
 
 jacocoTestReport {
     reports {
