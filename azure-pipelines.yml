@@ -33,12 +33,12 @@ steps:
     testResultsFiles: '**/TEST-*.xml'
     tasks: 'build'
 
-#- task: PublishCodeCoverageResults@1
-#  inputs:
-#    codeCoverageTool: 'JaCoCo' 
-#    summaryFileLocation: '$(System.DefaultWorkingDirectory)/**/reports/code-cov-report.xml'
-#    reportDirectory: '$(System.DefaultWorkingDirectory)/**/reports/code-cov-report.html'
-#    failIfCoverageEmpty: true
+- task: PublishCodeCoverageResults@1
+  inputs:
+    codeCoverageTool: 'JaCoCo' 
+    summaryFileLocation: '$(System.DefaultWorkingDirectory)/reports/code-cov-report.xml'
+    reportDirectory: '$(System.DefaultWorkingDirectory)/reports/code-cov-report.html'
+    failIfCoverageEmpty: true
     
 - task: CopyFiles@2
   inputs:
