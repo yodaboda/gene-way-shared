@@ -8,6 +8,17 @@ Gene-Way Shared Module
 ## Gene-Way-Shared 
 Is a shared module used by both the server and the client to facilitate the communication between them.
 
+## Getting the Package
+The latest release of the artifact is available on Maven Central, and can be installed using the following Maven dependency:
+
+```xml
+<dependency>
+  <groupId>com.gene-play</groupId>
+  <artifactId>gene-way-shared</artifactId>
+  <version>0.4.7</version>
+</dependency>
+```
+
 ## Contributors
 The code has been written by Firas Swidan, PhD.
 
