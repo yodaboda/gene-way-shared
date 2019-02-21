@@ -2,7 +2,8 @@ Gene-Way Shared Module
 ======
 [![Build Status](https://dev.azure.com/firasswidan/firasswidan/_apis/build/status/yodaboda.gene-way-shared?branchName=master)](https://dev.azure.com/firasswidan/firasswidan/_build/latest?definitionId=1?branchName=master)
 ![license](https://img.shields.io/github/license/yodaboda/gene-way-shared.svg)
-      
+[![Maven Central](https://img.shields.io/maven-central/v/com.gene-play/gene-way-shared.svg)](https://mvnrepository.com/artifact/com.gene-play/gene-way-shared)
+
 **Gene-Way-App** is an MVP project for tracking snacks consumptions. It uses a Server-Client architecture for providing an interactive mobile front-end that can communicate with the backend-server.
 
 ## Gene-Way-Shared 
