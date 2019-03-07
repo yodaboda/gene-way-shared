@@ -35,6 +35,10 @@ public enum MeasurementUnit {
 
   private static final Logger LOGGER = Logger.getLogger(MeasurementUnit.class.getName());
 
+  public boolean isWeightUnit() {
+    return this == KILOGRAM || this == GRAM || this == MILLIGRAM || this == MICROGRAM;
+  }
+
   public static MeasurementUnit parse(String measurementUnit) {
     measurementUnit = measurementUnit.trim();
     try {

@@ -16,6 +16,7 @@
 package com.nutrinfomics.geneway.shared;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
 import org.junit.Assert;
@@ -136,6 +137,14 @@ public class MeasurementUnitTest {
     MeasurementUnit[] actualMeasurementUnits = MeasurementUnit.parse(nutrientUnits, from);
     assertEquals(0, actualMeasurementUnits.length);
     //    assertEquals(0, logHandler.getLogRecords().size());
+  }
+
+  @Test
+  public void testIsWeightUnit() {
+    assertTrue(MeasurementUnit.GRAM.isWeightUnit());
+    assertTrue(MeasurementUnit.KILOGRAM.isWeightUnit());
+    assertTrue(MeasurementUnit.MICROGRAM.isWeightUnit());
+    assertTrue(MeasurementUnit.MILLIGRAM.isWeightUnit());
   }
 }
 
