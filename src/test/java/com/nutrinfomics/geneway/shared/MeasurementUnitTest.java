@@ -20,7 +20,6 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
 import org.junit.Assert;
-import org.junit.Ignore;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -28,8 +27,7 @@ import org.junit.rules.ExpectedException;
 
 import com.nutrinfomics.geneway.shared.testcategory.FastTest;
 
-// TODO: Remove ignore once issue with LogHandler class on Azure-pipeline is resolved
-@Ignore
+// TODO: Re-enable logging
 @Category(value = {FastTest.class})
 public class MeasurementUnitTest {
 
@@ -145,6 +143,17 @@ public class MeasurementUnitTest {
     assertTrue(MeasurementUnit.KILOGRAM.isWeightUnit());
     assertTrue(MeasurementUnit.MICROGRAM.isWeightUnit());
     assertTrue(MeasurementUnit.MILLIGRAM.isWeightUnit());
+  }
+
+  @Test
+  public void testConversionFromGramRatio() {
+    assertEquals(1F, MeasurementUnit.GRAM.conversionFromGramRatio(), .02F);
+    assertEquals(1 / 1000F, MeasurementUnit.KILOGRAM.conversionFromGramRatio(), .00004F);
+    assertEquals(1000F, MeasurementUnit.MILLIGRAM.conversionFromGramRatio(), 1F);
+    assertEquals(1000000F, MeasurementUnit.MICROGRAM.conversionFromGramRatio(), 100F);
+    thrown.expect(IllegalCallerException.class);
+    thrown.expectMessage("This is not a weight measurement unit");
+    MeasurementUnit.CENTIMETRE.conversionFromGramRatio();
   }
 }
 

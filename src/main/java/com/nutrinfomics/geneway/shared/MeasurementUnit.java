@@ -39,6 +39,21 @@ public enum MeasurementUnit {
     return this == KILOGRAM || this == GRAM || this == MILLIGRAM || this == MICROGRAM;
   }
 
+  public float conversionFromGramRatio() {
+    switch (this) {
+      case GRAM:
+        return 1F;
+      case KILOGRAM:
+        return 1 / 1000F;
+      case MILLIGRAM:
+        return 1000F;
+      case MICROGRAM:
+        return 1000000F;
+      default:
+        throw new IllegalCallerException("This is not a weight measurement unit");
+    }
+  }
+
   public static MeasurementUnit parse(String measurementUnit) {
     measurementUnit = measurementUnit.trim();
     try {
