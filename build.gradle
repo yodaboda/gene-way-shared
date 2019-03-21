@@ -85,6 +85,7 @@ uploadArchives {
   }
 }
 
+sourceCompatibility = 1.8
 
 /*******************************************************************************
  * † Dr Firas Swidan, PhD. frsswdn@gmail.com. firas.swidan@icloud.com.
